@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
       <h1>
         Welcome to {{ title }}!
       </h1>
+      <app-welcome></app-welcome>
     </div>    
   `,
   styles: [`
