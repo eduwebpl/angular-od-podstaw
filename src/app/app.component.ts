@@ -3,27 +3,19 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <!--The content below is only a placeholder and can be replaced.-->
-    <div style="text-align:center" class="content">
+    <div class="main-content">
       <h1>
-        Welcome to {{title}}!
+        Welcome to {{ title }}!
       </h1>
-    </div>
-    <ul>
-      <li>
-        <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-      </li>
-      <li>
-        <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-      </li>
-      <li>
-        <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-      </li>
-    </ul>
-    
+    </div>    
   `,
-  styles: []
+  styles: [`
+    .main-content{
+      padding: 20px;
+      font-family: sans-serif;
+    }
+  `]
 })
 export class AppComponent {
-  title = 'projekt';
+  title = 'Portfolio';
 }
