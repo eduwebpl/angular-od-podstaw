@@ -7,7 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WelcomeComponent implements OnInit {
 
+  user = {
+    firstName: 'Handsome Jack',
+    isSubscribed: false
+  }
+
   constructor() { }
+
+  askIfSubscribed(){
+    return this.user.isSubscribed ? 
+    'You are subscribed' : 'Want to get updates ' +  this.user.firstName + '?'
+  }
 
   ngOnInit(): void {
   }

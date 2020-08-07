@@ -13,6 +13,6 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent, WelcomeComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
