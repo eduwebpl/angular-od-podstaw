@@ -2,4 +2,11 @@
 
 <p> Welcome <b>{{ user.firstName.toLocaleUpperCase() }}</b>  ! </p>
 
+<div [title]="user.firstName" 
+     [hidden]="!askAboutName"
+     [attr.data-isSubscribed]="user.isSubscribed" 
+     role="presentation">
+    <input type="text" [value]="user.firstName">
+</div>
+
 <p> {{ askIfSubscribed() }}</p>

@@ -12,11 +12,13 @@ export class WelcomeComponent implements OnInit {
     isSubscribed: false
   }
 
+  askAboutName = false
+
   constructor() { }
 
   askIfSubscribed(){
     return this.user.isSubscribed ? 
-    'You are subscribed' : 'Want to get updates ' +  this.user.firstName + '?'
+    'You are subscribed' : `Want to get updates ${this.user.firstName}?`
   }
 
   ngOnInit(): void {
