@@ -6,17 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./welcome.component.css']
 })
 export class WelcomeComponent implements OnInit {
-
   user = {
     firstName: 'Handsome Jack',
-    isSubscribed: false
+    isSubscribed: false,
+    birthDay: new Date(1970,0,1)
   }
+
+  dateFormat = 'shortDate'
 
   askAboutName = true
-
-  changeFirstName(firstNameRef:HTMLInputElement){
-    this.user.firstName = firstNameRef.value
-  }
 
   constructor() { }
 
