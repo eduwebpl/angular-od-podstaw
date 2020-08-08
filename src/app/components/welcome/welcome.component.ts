@@ -12,7 +12,11 @@ export class WelcomeComponent implements OnInit {
     isSubscribed: false
   }
 
-  askAboutName = false
+  askAboutName = true
+
+  changeFirstName(firstNameRef:HTMLInputElement){
+    this.user.firstName = firstNameRef.value
+  }
 
   constructor() { }
 
