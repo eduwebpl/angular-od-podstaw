@@ -7,22 +7,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WelcomeComponent implements OnInit {
   user = {
-    firstName: 'Handsome Jack',
-    isSubscribed: false,
-    birthDay: new Date(1970,0,1)
+    firstName: 'Handsome',
+    isSubscribed: false
   }
 
-  dateFormat = 'shortDate'
-
-  askAboutName = true
+  steps = {
+    showWelcome: false,
+    askForFirstName:true,
+    askForEmail:false,
+    askToSubscribe:false,
+    subscribedSuccess:false
+  }
 
   constructor() { }
 
-  askIfSubscribed(){
-    return this.user.isSubscribed ? 
-    'You are subscribed' : `Want to get updates ${this.user.firstName}?`
+  updateName(firstName: string){
+    this.user.firstName = firstName
   }
 
+  subscribeUser(email:string){}
+
+  skipSubscription(){}
+  
   ngOnInit(): void {
   }
 

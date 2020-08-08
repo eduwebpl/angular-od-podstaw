@@ -1,21 +1,26 @@
-<pre>{{ user | json }}</pre>
+<!-- <pre>{{ user | json }}</pre> -->
 
-<p> Welcome <b>{{ user.firstName | titlecase }}</b>  ! </p>
+<p> Welcome <b>{{ user.firstName | titlecase }}</b> ! </p>
 
-<p>{{user.birthDay | date: dateFormat }}</p>
+<p [hidden]="!steps.askForFirstName">
+    What is your name
+    <input class="inline-input" type="text" [value]="user.firstName" #firstNameRef
+        (input)="updateName($event.target.value)" autofocus maxlength="20">
+    ?
+</p>
 
-<div [title]="user.firstName" 
-     [hidden]="!askAboutName"
-     [attr.data-isSubscribed]="user.isSubscribed" 
-     role="presentation">
-     
-    <input type="text" [value]="user.firstName" #firstNameRef
-        (input)="user.firstName = $event.target.value">
+<p [hidden]="!steps.askToSubscribe">
+    Would you like to subscribe to our awesome newsletter?
+    <button>Yes</button>
+    <button disabled>No</button>
+</p>
 
-    <p>{{ 170 - user.firstName.length }} / 170</p>
+<p [hidden]="!steps.askForEmail">
+    Type your best email <input type="text" class="inline-input" placeholder="here">
+    and <button>Click here!</button>
+</p>
 
+<div [hidden]="!steps.subscribedSuccess">
+    <h1>You are all set up now!</h1>
+    <p>Check your mailbox for loads of awesome stuff!</p>
 </div>
-
-<p> {{ askIfSubscribed() }}</p>
-
-

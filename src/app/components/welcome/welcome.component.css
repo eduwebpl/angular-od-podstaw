@@ -1,0 +1,10 @@
+.inline-input{
+    display: inline-block;
+    border: none;
+    border-bottom: 1px dashed gray;
+    width: 150px;
+}
+.inline-input:focus{
+    outline: none;
+    border-bottom: 1px solid darkblue;
+}
