@@ -1,33 +1,35 @@
 <!-- <pre>{{ user | json }}</pre> -->
 
-<p [hidden]="!steps.showWelcome" 
+<p  class="slideIn" [class.animated]="steps.showWelcome" 
    [style.font-size.rem]=" (3 - user.firstName.length / 10) "> 
     Welcome <b>{{ user.firstName | titlecase }}</b> ! 
 </p>
 
-<p [hidden]="!steps.askForFirstName">
+<p  class="slideIn" [class.animated]="steps.askForFirstName">
     What is your name
     <input class="inline-input" type="text" [value]="user.firstName" #firstNameRef
         (input)="updateName($event.target.value)" autofocus maxlength="20">
     ?
 </p>
 
-<p [hidden]="!steps.askToSubscribe">
+<p  class="slideIn" [class.animated]="steps.askToSubscribe">
     Would you like to subscribe to our awesome newsletter?
     <button (click)="agreedToSubscribe()">Yes</button>
     <button disabled>No</button>
 </p>
 
-<p [hidden]="!steps.askForEmail">
+<p  class="slideIn" [class.animated]="steps.askForEmail">
     Type your best email 
     <input type="text" class="inline-input" placeholder="here" #emailRef
         (input)="updateEmail($event.target.value)"
-        [style.border-bottom-color]="user.email.length < 3 ? 'red' : 'green' "
+        
+        [class.valid]="user.email.length >= 3"
+        [class.invalid]="user.email.length < 3"
     >
-    and <button (click)="subscribeUser(emailRef.value)">Click here!</button>
+    and <button (click)="subscribeUser()">Click here!</button>
 </p>
 
-<div [hidden]="!steps.subscribedSuccess">
+<div class="slideIn" [class.animated]="steps.subscribedSuccess">
     <h1>You are all set up now!</h1>
     <p>Check your mailbox for loads of awesome stuff!</p>
 </div>

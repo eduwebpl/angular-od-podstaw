@@ -15,7 +15,7 @@ export class WelcomeComponent implements OnInit {
   steps = {
     showWelcome: false,
     askForFirstName:true,
-    askForEmail:true,
+    askForEmail:false,
     askToSubscribe:false,
     subscribedSuccess:false
   }
@@ -46,6 +46,7 @@ export class WelcomeComponent implements OnInit {
   }
   
   subscribeUser(){
+    this.steps.showWelcome = false
     this.user.isSubscribed = true
     this.steps.askForEmail = false
     this.steps.subscribedSuccess = true

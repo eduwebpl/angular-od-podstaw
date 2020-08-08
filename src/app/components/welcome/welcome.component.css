@@ -4,7 +4,30 @@
     border-bottom: 1px dashed gray;
     width: 150px;
 }
+
 .inline-input:focus{
     outline: none;
     border-bottom: 1px solid darkblue;
+}
+
+.inline-input.valid{
+    border-bottom-color: green;
+}
+
+.inline-input.invalid{
+    border-bottom-color: red;
+}
+
+.slideIn{
+    height: 0;
+    opacity: 0;
+    transition: all .5s ease-in;
+    transform: translateX(-200px);
+}
+
+.slideIn.animated{
+    height: auto;
+    opacity: 1;
+    transform: translateX(0px);
+
 }
