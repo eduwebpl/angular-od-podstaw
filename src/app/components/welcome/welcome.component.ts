@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class WelcomeComponent implements OnInit {
   user = {
     firstName: 'Handsome',
-    isSubscribed: false
+    isSubscribed: false,
+    email:''
   }
 
   steps = {
@@ -23,9 +24,29 @@ export class WelcomeComponent implements OnInit {
 
   updateName(firstName: string){
     this.user.firstName = firstName
-  }
+    if( ('Handsome'.startsWith(firstName) === false)){
+      this.steps.showWelcome = true
+    }
 
-  subscribeUser(email:string){}
+    if(this.steps.showWelcome && firstName.length >= 3){
+      setTimeout(()=>{
+        this.steps.askToSubscribe = true
+      },1500)
+    }
+  }
+  
+  agreedToSubscribe(){
+    this.steps.askForFirstName = false
+    this.steps.askForEmail = true
+    this.steps.askToSubscribe = false
+  }
+  
+  subscribeUser(email:string){
+    this.user.email = email
+    this.user.isSubscribed = true
+    this.steps.askForEmail = false
+    this.steps.subscribedSuccess = true
+  }
 
   skipSubscription(){}
   

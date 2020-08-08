@@ -1,6 +1,6 @@
 <!-- <pre>{{ user | json }}</pre> -->
 
-<p> Welcome <b>{{ user.firstName | titlecase }}</b> ! </p>
+<p [hidden]="!steps.showWelcome"> Welcome <b>{{ user.firstName | titlecase }}</b> ! </p>
 
 <p [hidden]="!steps.askForFirstName">
     What is your name
@@ -11,13 +11,13 @@
 
 <p [hidden]="!steps.askToSubscribe">
     Would you like to subscribe to our awesome newsletter?
-    <button>Yes</button>
+    <button (click)="agreedToSubscribe()">Yes</button>
     <button disabled>No</button>
 </p>
 
 <p [hidden]="!steps.askForEmail">
-    Type your best email <input type="text" class="inline-input" placeholder="here">
-    and <button>Click here!</button>
+    Type your best email <input type="text" class="inline-input" placeholder="here" #emailRef>
+    and <button (click)="subscribeUser(emailRef.value)">Click here!</button>
 </p>
 
 <div [hidden]="!steps.subscribedSuccess">
