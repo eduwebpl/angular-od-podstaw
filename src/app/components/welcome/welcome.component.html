@@ -1,6 +1,9 @@
 <!-- <pre>{{ user | json }}</pre> -->
 
-<p [hidden]="!steps.showWelcome"> Welcome <b>{{ user.firstName | titlecase }}</b> ! </p>
+<p [hidden]="!steps.showWelcome" 
+   [style.font-size.rem]=" (3 - user.firstName.length / 10) "> 
+    Welcome <b>{{ user.firstName | titlecase }}</b> ! 
+</p>
 
 <p [hidden]="!steps.askForFirstName">
     What is your name
@@ -16,7 +19,11 @@
 </p>
 
 <p [hidden]="!steps.askForEmail">
-    Type your best email <input type="text" class="inline-input" placeholder="here" #emailRef>
+    Type your best email 
+    <input type="text" class="inline-input" placeholder="here" #emailRef
+        (input)="updateEmail($event.target.value)"
+        [style.border-bottom-color]="user.email.length < 3 ? 'red' : 'green' "
+    >
     and <button (click)="subscribeUser(emailRef.value)">Click here!</button>
 </p>
 
