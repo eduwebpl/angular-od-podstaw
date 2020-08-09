@@ -7,7 +7,15 @@ import { Component } from '@angular/core';
       <h1>
         Welcome to {{ title }}!
       </h1>
-      <app-welcome></app-welcome>
+
+      {{ user.firstName }}
+      <input type="text" [value]="user.firstName"
+                         (keyup)="user.firstName = $event.target.value">
+
+
+      <app-welcome [user]="anonym" (userSubscribed)="subscribed($event)"></app-welcome>
+
+      <app-welcome [user]="user"></app-welcome>      
     </div>    
   `,
   styles: [`
@@ -19,4 +27,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Portfolio';
+
+  anonym = {
+    firstName: '',
+    isSubscribed: false,
+    email:''
+  }
+
+  user = {
+    firstName: 'Test',
+    isSubscribed: false,
+    email:''
+  }
+
+  subscribed(user){
+    console.log(user)
+    this.user = user;
+  }
+
 }

@@ -1,31 +1,27 @@
 <!-- <pre>{{ user | json }}</pre> -->
 
-<p  class="slideIn" [class.animated]="steps.showWelcome" 
-   [style.font-size.rem]=" (3 - user.firstName.length / 10) "> 
-    Welcome <b>{{ user.firstName | titlecase }}</b> ! 
+<p class="slideIn" [class.animated]="steps.showWelcome" [style.font-size.rem]=" (3 - user.firstName.length / 10) ">
+    Welcome <b>{{ user.firstName | titlecase }}</b> !
 </p>
 
-<p  class="slideIn" [class.animated]="steps.askForFirstName">
+<p class="slideIn" [class.animated]="steps.askForFirstName">
     What is your name
     <input class="inline-input" type="text" [value]="user.firstName" #firstNameRef
         (input)="updateName($event.target.value)" autofocus maxlength="20">
     ?
 </p>
 
-<p  class="slideIn" [class.animated]="steps.askToSubscribe">
+<p class="slideIn" [class.animated]="steps.askToSubscribe">
     Would you like to subscribe to our awesome newsletter?
     <button (click)="agreedToSubscribe()">Yes</button>
     <button disabled>No</button>
 </p>
 
-<p  class="slideIn" [class.animated]="steps.askForEmail">
-    Type your best email 
-    <input type="text" class="inline-input" placeholder="here" #emailRef
+<p class="slideIn" [class.animated]="steps.askForEmail">
+    Type your best email
+    <input type="text" class="inline-input" placeholder="here" #emailRef 
         (input)="updateEmail($event.target.value)"
-        
-        [class.valid]="user.email.length >= 3"
-        [class.invalid]="user.email.length < 3"
-    >
+        [class.valid]="user.email.length >= 3" [class.invalid]="user.email.length < 3">
     and <button (click)="subscribeUser()">Click here!</button>
 </p>
 

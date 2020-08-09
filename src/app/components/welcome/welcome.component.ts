@@ -1,16 +1,25 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-welcome',
   templateUrl: './welcome.component.html',
-  styleUrls: ['./welcome.component.css']
+  styleUrls: ['./welcome.component.css'],
+  // inputs:[
+  //   'user:data'
+  // ]
 })
 export class WelcomeComponent implements OnInit {
+
+  @Input()
   user = {
     firstName: 'Handsome',
     isSubscribed: false,
     email:''
   }
+  
+
+  @Output()
+  userSubscribed = new EventEmitter()
 
   steps = {
     showWelcome: false,
@@ -45,11 +54,16 @@ export class WelcomeComponent implements OnInit {
     this.steps.askToSubscribe = false
   }
   
+  
+
   subscribeUser(){
     this.steps.showWelcome = false
     this.user.isSubscribed = true
     this.steps.askForEmail = false
     this.steps.subscribedSuccess = true
+
+    this.userSubscribed.emit( this.user )
+    // this.userSubscribed.subscribe(console.log)
   }
 
   skipSubscription(){}
