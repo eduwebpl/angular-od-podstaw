@@ -1,0 +1,39 @@
+<label class="mt-2">{{label}}</label>
+
+<div class="progress">
+    <div class="progress-bar"     
+        [ngClass]="{
+            'progress-bar-striped': striped != null
+        }"
+        [class]=" 'bg-' + status "
+
+        [ngStyle]="{
+            'width.%':value,
+            'height.rem': thin != null? 0.2 : 1    
+        }"
+        
+        
+        role="progressbar" 
+        [attr.aria-valuenow]="value" 
+        aria-valuemin="0" 
+        aria-valuemax="100"> 
+        {{value}}%
+    </div>
+</div>
+
+
+<!-- 'bg-info': status == 'info',
+'bg-danger': status == 'danger' ,
+'bg-success': status == 'success' -->
+
+
+<!-- [class.progress-bar-striped]="striped != null"
+[class.bg-info]=" status == 'info' "
+[class.bg-danger]=" status == 'danger' "
+[class.bg-success]="  " -->
+
+<!-- 
+    
+        [style.width.%]="value"
+        [style.height.rem]=" thin != null? 0.2 : 1"
+ -->
