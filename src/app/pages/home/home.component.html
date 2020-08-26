@@ -1,7 +1,28 @@
 <app-navbar></app-navbar>
 
-  <div class="main-header bg-section">
-    <div class="full-bg full-bg-gradient">
+<app-herobar class="main-header">
+  <h2 class="display-3">Angular Agency</h2>
+  <h4 class="pt-4">Hi, I am Matt! I am a Angular developer</h4>
+  <h4 class="pt-4">Welcome to my Web Portfolio</h4>
+</app-herobar>
 
+<div class="container">
+  <div class="row py-4">
+    <div class="col">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quae ut error tempore veritatis iste autem
+        velit alias debitis vitae delectus quasi nihil atque voluptatem corrupti iusto eum, blanditiis illum.</p>
+      <a href="#"  [hidden]="readmore" (click)="readmore = true">Read more</a>
+
+      <p [hidden]="!readmore">Nostrum illo assumenda modi, beatae voluptate repellendus repellat sed impedit corporis vitae asperiores
+        corrupti praesentium adipisci harum similique maxime aut quibusdam quaerat libero molestiae officiis ullam
+        eaque. Laudantium, facere quidem.</p>
     </div>
   </div>
+</div>
+
+<app-herobar>
+  <blockquote class="blockquote text-white">
+    <h4>"Such a quote... much motivational"</h4>
+    <footer class="blockquote-footer  text-white">Someone famous</footer>
+  </blockquote>
+</app-herobar>
