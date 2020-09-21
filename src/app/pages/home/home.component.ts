@@ -9,6 +9,8 @@ export class HomeComponent implements OnInit {
 
   readmore = false
 
+  currentTab = ''
+
   constructor() { }
 
   ngOnInit(): void {
