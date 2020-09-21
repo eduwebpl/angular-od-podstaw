@@ -11,11 +11,12 @@
     <div class="col">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quae ut error tempore veritatis iste autem
         velit alias debitis vitae delectus quasi nihil atque voluptatem corrupti iusto eum, blanditiis illum.</p>
-      <a href="#"  [hidden]="readmore" (click)="readmore = true">Read more</a>
+      <a href="#" [hidden]="readmore" (click)="readmore = !readmore">Read more</a>
 
-      <p [hidden]="!readmore">Nostrum illo assumenda modi, beatae voluptate repellendus repellat sed impedit corporis vitae asperiores
+      <p *ngIf="readmore">Nostrum illo assumenda modi, beatae voluptate repellendus repellat sed impedit corporis vitae asperiores
         corrupti praesentium adipisci harum similique maxime aut quibusdam quaerat libero molestiae officiis ullam
         eaque. Laudantium, facere quidem.</p>
+
     </div>
     <div class="col">
       <app-progressbar value="25" label="Angular" status="danger" striped></app-progressbar>
