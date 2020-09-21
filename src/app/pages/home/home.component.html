@@ -91,33 +91,22 @@
   <hr>
   <div class="row py-4">
 
-    <div class="col">
-      <div class="card">
-        <img class="img-fluid" src="http://lorempixel.com/400/400/technics/1/">
-        <div class="card-body text-center ">
-          <h5 class="card-title">Project Name</h5>
-          <button class="btn btn-link">Read more</button>
+    <!-- <ng-template ngFor let-project="$implicit" [ngForOf]="recentProjects" let-last="last" let-first="first">
+    </ng-template> -->
+
+      <div class="col" 
+        *ngFor="let project of recentProjects; let isLast = last; let isFirst = first; index as i"
+        [ngClass]="{ firstProject: isLast == true, lastProject: isLast==true}">
+        <div class="card">
+          <img class="img-fluid" [src]="project.image">
+          <div class="card-body text-center ">
+            <h5 class="card-title">{{i+1}}. {{ project.name }}</h5>
+            <button class="btn btn-link">Read more</button>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img class="img-fluid" src="http://lorempixel.com/400/400/technics/2/">
-        <div class="card-body text-center ">
-          <h5 class="card-title">Project Name</h5>
-          <button class="btn btn-link">Read more</button>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img class="img-fluid" src="http://lorempixel.com/400/400/technics/3/">
-        <div class="card-body text-center ">
-          <h5 class="card-title">Project Name</h5>
-          <button class="btn btn-link">Read more</button>
-        </div>
-      </div>
-    </div>
+
+
   </div>
   <!-- <div class="text-center pb-5 display-3">
     <a href="javascript:;" class="btn btn-link">&raquo; Show more projects &laquo;</a>
