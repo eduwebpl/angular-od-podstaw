@@ -94,17 +94,16 @@
     <!-- <ng-template ngFor let-project="$implicit" [ngForOf]="recentProjects" let-last="last" let-first="first">
     </ng-template> -->
 
-      <div class="col" 
-        *ngFor="let project of recentProjects; let isLast = last; let isFirst = first; index as i"
-        [ngClass]="{ firstProject: isLast == true, lastProject: isLast==true}">
-        <div class="card">
-          <img class="img-fluid" [src]="project.image">
-          <div class="card-body text-center ">
-            <h5 class="card-title">{{i+1}}. {{ project.name }}</h5>
-            <button class="btn btn-link">Read more</button>
-          </div>
+    <div class="col" *ngFor="let project of recentProjects; let isLast = last; let isFirst = first; index as i"
+      [ngClass]="{ firstProject: isLast == true, lastProject: isLast==true}">
+      <div class="card">
+        <img class="img-fluid" [src]="project.image">
+        <div class="card-body text-center ">
+          <h5 class="card-title">{{i+1}}. {{ project.name }}</h5>
+          <button class="btn btn-link">Read more</button>
         </div>
       </div>
+    </div>
 
 
   </div>
@@ -112,3 +111,48 @@
     <a href="javascript:;" class="btn btn-link">&raquo; Show more projects &laquo;</a>
   </div> -->
 </div>
+
+<!-- Testimonials  -->
+<div class="container">
+  <h2 class="mt-4 text-center">What My Clients Say</h2>
+  <hr>
+  <div class="row py-4">
+    <div class="col py-2 px-4">
+      <div class="text-left flex-row d-flex">
+
+        <img class="mr-3 rounded-circle img-thumbnail" src="https://i.imgur.com/h2E4WGw.jpg"
+          style="object-fit: cover; width:100px; height:100px;">
+
+        <div class="py-2">
+          <div class="float-right w-100">
+            <span class="text-muted mr-1">Rating 4/5</span>
+            <span class=" text-warning h3">★★★★☆</span>
+          </div>
+          <h4>
+            I was blown away ...
+          </h4>
+
+          <blockquote class="blockquote ">
+            <div class="p-0">
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+              odio.</div>
+              <footer class="blockquote-footer float-right">Our client</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-light">
+  <div class="container">
+    <div class="row py-4">
+      <div class="col">
+        <h3>Angular Agency Website</h3>
+        <p>Copyright Eduweb</p>
+      </div>
+    </div>
+  </div>
+</footer>
