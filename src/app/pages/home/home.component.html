@@ -77,6 +77,58 @@
   </div>
 </div>
 
+
+<!-- My experience -->
+<div class="container">
+  <div class="row py-4">
+    <div class="col-md-6 col-12 p-2">
+      <h3>My experience</h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tempora nesciunt cum accusamus
+      praesentium quos, dolore dicta animi deserunt doloribus neque ex iusto esse assumenda excepturi vitae aut nihil
+      quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tempora nesciunt cum accusamus
+      praesentium quos, dolore dicta animi deserunt doloribus neque ex iusto esse assumenda excepturi vitae aut nihil
+      quidem
+    </div>
+    <div class="col-md-6 col-12 p-2">
+      <h3>My skills</h3>
+      <p>
+        Dolor tempora nesciunt cum accusamus praesentium quos, dolore dicta animi deserunt doloribus neque ex iusto esse
+        assumenda excepturi vitae aut nihil
+        quidem</p>
+      <ul>
+        <li>
+          Odit veritatis harum veniam magni accusamus laborum laudantium dolorum tempore ullam esse sequi
+          dicta ab
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </li>
+        <li> Odio, vero! </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--  My Work In Numbers-->
+<div class="container">
+  <h2 class="mt-4 text-center">My Work In Numbers</h2>
+  <hr>
+  <div class="d-flex flex-column flex-md-row justify-content-around pb-5">
+    <div class="text-center">
+      <div class="display-4 w-100" style="white-space: nowrap;">100</div><strong>Clients</strong>
+    </div>
+    <div class="text-center">
+      <div class="display-4 w-100" style="white-space: nowrap;">1,000</div><strong>Coffes</strong>
+    </div>
+    <div class="text-center">
+      <div class="display-4 w-100" style="white-space: nowrap;">11,000</div><strong>Lines of Code</strong>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Famous Quote -->
 <app-herobar>
   <blockquote class="blockquote text-white text-center">
     <h4>"Such a quote... much motivational"</h4>
@@ -122,13 +174,12 @@
 
         <ng-container ngProjectAs="author">{{testimonial.author}}</ng-container>
         <ng-container ngProjectAs="title">{{testimonial.title}}</ng-container>
-        
+
         <p> {{testimonial.content}}</p>
 
         <app-avatar ngProjectAs="avatar" [image]="testimonial.image"></app-avatar>
 
-        <app-rating *ngIf="testimonial.rating"
-            ngProjectAs="rating" [rating]="testimonial.rating"></app-rating>
+        <app-rating *ngIf="testimonial.rating" ngProjectAs="rating" [rating]="testimonial.rating"></app-rating>
 
       </app-testimonial>
     </div>
