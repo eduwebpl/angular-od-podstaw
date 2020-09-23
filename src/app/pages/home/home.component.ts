@@ -25,6 +25,23 @@ export class HomeComponent implements OnInit {
     },
   ]
 
+  testimonials = [
+    {
+      author:'Johanna Arc',
+      title:'I was blown away ...',
+      content: 'Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. ',
+      image:'https://i.imgur.com/h2E4WGw.jpg',
+      rating:3.5
+    },
+    {
+      author:'John Doe',
+      title:'Awesome work',
+      content: 'Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. ',
+      image:'https://randomuser.me/api/portraits/men/32.jpg',
+      // rating:4.5
+    }
+  ]
+
   readmore = false
 
   currentTab = ''

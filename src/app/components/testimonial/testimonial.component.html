@@ -1,0 +1,21 @@
+<div class="text-left flex-row d-flex">
+    
+    <div class="mr-3">
+        <ng-content select="avatar"></ng-content>
+    </div>
+
+    <div class="py-2">
+        <div class="float-right w-100">
+            <ng-content select="rating"></ng-content>
+        </div>
+        <h4><ng-content select="title"></ng-content></h4>
+
+        <blockquote class="blockquote ">
+            <ng-content></ng-content>
+
+            <footer class="blockquote-footer float-right">
+                <ng-content select="author"></ng-content>
+            </footer>
+        </blockquote>
+    </div>
+</div>

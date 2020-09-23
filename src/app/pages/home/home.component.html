@@ -118,28 +118,19 @@
   <hr>
   <div class="row py-4">
     <div class="col py-2 px-4">
-      <div class="text-left flex-row d-flex">
+      <app-testimonial *ngFor="let testimonial of testimonials">
 
-        <img class="mr-3 rounded-circle img-thumbnail" src="https://i.imgur.com/h2E4WGw.jpg"
-          style="object-fit: cover; width:100px; height:100px;">
+        <ng-container ngProjectAs="author">{{testimonial.author}}</ng-container>
+        <ng-container ngProjectAs="title">{{testimonial.title}}</ng-container>
+        
+        <p> {{testimonial.content}}</p>
 
-        <div class="py-2">
-          <div class="float-right w-100">
-            <span class="text-muted mr-1">Rating 4/5</span>
-            <span class=" text-warning h3">★★★★☆</span>
-          </div>
-          <h4>
-            I was blown away ...
-          </h4>
+        <app-avatar ngProjectAs="avatar" [image]="testimonial.image"></app-avatar>
 
-          <blockquote class="blockquote ">
-            <div class="p-0">
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
-              odio.</div>
-              <footer class="blockquote-footer float-right">Our client</footer>
-          </blockquote>
-        </div>
-      </div>
+        <app-rating *ngIf="testimonial.rating"
+            ngProjectAs="rating" [rating]="testimonial.rating"></app-rating>
+
+      </app-testimonial>
     </div>
   </div>
 </div>
