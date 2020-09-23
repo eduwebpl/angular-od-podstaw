@@ -114,16 +114,9 @@
   <h2 class="mt-4 text-center">My Work In Numbers</h2>
   <hr>
   <div class="d-flex flex-column flex-md-row justify-content-around pb-5">
-    <div class="text-center">
-      <div class="display-4 w-100" style="white-space: nowrap;">100</div><strong>Clients</strong>
-    </div>
-    <div class="text-center">
-      <div class="display-4 w-100" style="white-space: nowrap;">1,000</div><strong>Coffes</strong>
-    </div>
-    <div class="text-center">
-      <div class="display-4 w-100" style="white-space: nowrap;">11,000</div><strong>Lines of Code</strong>
-    </div>
-
+    <app-counter [value]="100" label="Clients"></app-counter>
+    <app-counter [value]="1000" label="Coffes"></app-counter>
+    <app-counter [value]="1100" label="Lines of Code"></app-counter>
   </div>
 </div>
 

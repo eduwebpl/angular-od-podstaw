@@ -12,6 +12,7 @@ import { ProgressbarComponent } from './components/progressbar/progressbar.compo
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { AvatarComponent } from './components/avatar/avatar.component';
 import { RatingComponent } from './components/rating/rating.component';
+import { CounterComponent } from './components/counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RatingComponent } from './components/rating/rating.component';
     ProgressbarComponent,
     TestimonialComponent,
     AvatarComponent,
-    RatingComponent
+    RatingComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule,
