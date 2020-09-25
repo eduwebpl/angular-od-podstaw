@@ -1,4 +1,9 @@
-<div class="text-center">
-    <div #counterElemRef class="counter display-4 w-100" style="white-space: nowrap;">{{value}}</div>
+<div class="text-center" (click)="value = value + 10"
+    [class.ultraviolet-pulse]="updateAnimation">
+    <div #counterElemRef class="counter display-4 w-100" style="white-space: nowrap;">
+        {{value}}
+    </div>
     <strong>{{label}}</strong>
 </div>
+
+{{ checkIfUpdating() }}

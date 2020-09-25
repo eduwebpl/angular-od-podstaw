@@ -1,0 +1,13 @@
+.ultraviolet-pulse {
+    animation: ultraviolet-pulse 0.8s alternate;
+}
+
+@keyframes ultraviolet-pulse {
+    0% {
+        color: inherit;
+    }
+
+    50% {
+        color: blueviolet;
+    }
+}
