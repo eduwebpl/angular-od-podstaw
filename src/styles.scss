@@ -44,3 +44,30 @@ body{
     padding: 4rem 0;
 
 }
+
+.slideUp {
+  transform: translateY(100%);
+}
+
+.slideInLeft {
+  transform: translateX(-100%);
+}
+.slideInRight {
+  transform: translateX(100%);
+}
+
+.slideUp,
+.slideInLeft,
+.slideInRight {
+  opacity: 0;
+  transition: all 0.5s ease-in;
+}
+
+.slideUp.animate,
+.slideInLeft.animate,
+.slideInRight.animate {
+  opacity: 1;
+  transform: translate(0%, 0%);
+}
+
+

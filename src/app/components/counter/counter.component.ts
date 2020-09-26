@@ -74,11 +74,11 @@ export class CounterComponent implements OnInit, DoCheck {
   }
 
   checkIfUpdating() {
-    console.log('Detecting child changes')
+    // console.log('Detecting child changes')
   }
 
   ngDoCheck() {
-    console.log('Detecting parent changes')
+    // console.log('Detecting parent changes')
   }
 
 }

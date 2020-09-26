@@ -9,7 +9,7 @@
 <div class="container">
   <h2 class="mt-4 text-center">Who Am I?</h2>
   <div class="row py-4">
-    <div class="col">
+    <div class="col slideInLeft animate">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quae ut error tempore veritatis iste autem
         velit alias debitis vitae delectus quasi nihil atque voluptatem corrupti iusto eum, blanditiis illum.</p>
       <a href="#" [hidden]="readmore" (click)="readmore = !readmore">Read more</a>
@@ -35,7 +35,7 @@
   <h2 class="mt-4 text-center">What I do</h2>
   <hr>
   <div class="row py-4">
-    <div class="col-md-6 col-12 p2">
+    <div class="col-md-6 col-12 p2 slideInLeft animate">
       <!--  -->
       <div class="nav flex-column nav-pills text-lg-right">
         <a href="javascript:" class="nav-link" (click)="currentTab = 'marketing' ">Marketing and sales langing pages
@@ -46,7 +46,7 @@
       </div>
       <!--  -->
     </div>
-    <div class="col-md-6 col-12 pb-2 order-first order-lg-last">
+    <div class="col-md-6 col-12 pb-2 order-first order-md-last slideInRight animate">
       <div class="d-flex flex-column h-100" [ngSwitch]="currentTab">
         <div class="my-auto" *ngSwitchDefault>
           <h3>I offer a variety of quality services</h3>
@@ -139,7 +139,7 @@
     <!-- <ng-template ngFor let-project="$implicit" [ngForOf]="recentProjects" let-last="last" let-first="first">
     </ng-template> -->
 
-    <div class="col" *ngFor="let project of recentProjects; let isLast = last; let isFirst = first; index as i"
+    <div class="col slideUp animate" *ngFor="let project of recentProjects; let isLast = last; let isFirst = first; index as i"
       [ngClass]="{ firstProject: isLast == true, lastProject: isLast==true}">
       <div class="card">
         <img class="img-fluid" [src]="project.image">
