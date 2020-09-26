@@ -197,33 +197,38 @@
   <div class="row py-4">
     <div class="col-md-6 col-12 p-2">
       <div>
+
+        <pre>{{contactForm | json}}</pre>
+
         <div class="form-group">
           <label for="">Name:</label>
-          <input type="text" class="form-control" >
+          <input type="text" class="form-control" 
+            [(ngModel)]="contactForm.name">
         </div>
         <div class="form-group">
           <label for="">Email:</label>
-          <input type="email" class="form-control" >
+          <input type="email" class="form-control" [(ngModel)]="contactForm.email" >
         </div>
         <div class="form-group">
           <label for="">
-            <input type="checkbox"> I agree to <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+            <input type="checkbox" 
+              [(ngModel)]="contactForm.agreement"> I agree to <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
           </label>
         </div>
         <div class="form-group">
           <label for="">Choose your topic:</label>
-          <select  class="form-control">
-            <option value="new">Ask about your new project idea</option>
+          <select  class="form-control" [(ngModel)]="contactForm.topic">
             <option value="existing">Work on existing project</option>
             <option value="testimonial">Send us testimonial</option>
             <option value="other">Other topic</option>
+            <option value="new">Ask about your new project idea</option>
           </select>
         </div>
         <div class="form-group">
-          <textarea class="form-control"
+          <textarea class="form-control"  [(ngModel)]="contactForm.message"
             placeholder="Your message goes here.."></textarea>
         </div>
-        <button class="float-right btn btn-primary">Send Message</button>
+        <button class="float-right btn btn-primary" (click)="sendMessage()">Send Message</button>
       </div>
     </div>
     <div class="col-md-6 col-12 p-4">

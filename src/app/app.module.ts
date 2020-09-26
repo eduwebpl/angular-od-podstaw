@@ -15,6 +15,7 @@ import { RatingComponent } from './components/rating/rating.component';
 import { CounterComponent } from './components/counter/counter.component';
 import { SlideInDirective } from './directives/slide-in.directive';
 import { WhenVisibleDirective } from './directives/when-visible.directive';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,9 +31,10 @@ import { WhenVisibleDirective } from './directives/when-visible.directive';
     RatingComponent,
     CounterComponent,
     SlideInDirective,
-    WhenVisibleDirective
+    WhenVisibleDirective,
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule
   ],

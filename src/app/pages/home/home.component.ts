@@ -46,6 +46,18 @@ export class HomeComponent implements OnInit {
 
   currentTab = ''
 
+  contactForm = {
+    name: 'Anonym',
+    email:'',
+    agreement: false,
+    topic: 'new',
+    message:'',
+  }
+  
+  sendMessage(){
+    console.log(this.contactForm)
+  }
+
   constructor() { }
 
   ngOnInit(): void {
