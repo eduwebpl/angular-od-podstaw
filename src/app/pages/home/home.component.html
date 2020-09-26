@@ -6,7 +6,7 @@
   <h4 class="pt-4">Welcome to my Web Portfolio</h4>
 </app-herobar>
 
-<div class="container"  appWhenVisible #visRef="whenVisible">
+<div class="container" appWhenVisible #visRef="whenVisible">
   <h2 class="mt-4 text-center">Who Am I?</h2>
   <div class="row py-4">
     <div class="col" appSlideIn="left">
@@ -14,7 +14,8 @@
         velit alias debitis vitae delectus quasi nihil atque voluptatem corrupti iusto eum, blanditiis illum.</p>
       <a href="#" [hidden]="false" (click)="readmore = !readmore">Read more</a>
 
-      <p *ngIf="readmore" appSlideIn>Nostrum illo assumenda modi, beatae voluptate repellendus repellat sed impedit corporis vitae
+      <p *ngIf="readmore" appSlideIn>Nostrum illo assumenda modi, beatae voluptate repellendus repellat sed impedit
+        corporis vitae
         asperiores
         corrupti praesentium adipisci harum similique maxime aut quibusdam quaerat libero molestiae officiis ullam
         eaque. Laudantium, facere quidem.</p>
@@ -40,8 +41,8 @@
     (visibilityChange)="$event && menuRef.animate = true">
     <div class="col-md-6 col-12 p2" 
         appSlideIn="left" [delay]="-1" #menuRef="slideIn"> -->
-  <div class="row py-4"  >
-    <div class="col-md-6 col-12 p2"  appSlideIn="left">
+  <div class="row py-4">
+    <div class="col-md-6 col-12 p2" appSlideIn="left">
       <!--  -->
       <div class="nav flex-column nav-pills text-lg-right">
         <a href="javascript:" class="nav-link" (click)="currentTab = 'marketing' ">Marketing and sales langing pages
@@ -87,8 +88,7 @@
 <!-- My experience -->
 <div class="container" appWhenVisible>
   <div class="row py-4">
-    <div class="col-md-6 col-12 p-2" 
-    appSlideIn="left" >
+    <div class="col-md-6 col-12 p-2" appSlideIn="left">
       <h3>My experience</h3>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tempora nesciunt cum accusamus
       praesentium quos, dolore dicta animi deserunt doloribus neque ex iusto esse assumenda excepturi vitae aut nihil
@@ -96,8 +96,7 @@
       praesentium quos, dolore dicta animi deserunt doloribus neque ex iusto esse assumenda excepturi vitae aut nihil
       quidem
     </div>
-    <div class="col-md-6 col-12 p-2" 
-    appSlideIn="right">
+    <div class="col-md-6 col-12 p-2" appSlideIn="right">
       <h3>My skills</h3>
       <p>
         Dolor tempora nesciunt cum accusamus praesentium quos, dolore dicta animi deserunt doloribus neque ex iusto esse
@@ -121,7 +120,7 @@
 <div class="container" appWhenVisible [threshold]="1">
   <h2 class="mt-4 text-center">My Work In Numbers</h2>
   <hr>
-  <div class="d-flex flex-column flex-md-row justify-content-around pb-5" >
+  <div class="d-flex flex-column flex-md-row justify-content-around pb-5">
     <app-counter [value]="100" label="Clients"></app-counter>
     <app-counter [value]="2000" [grow]="1" label="Coffes"></app-counter>
     <app-counter [value]="11000" [grow]="23" label="Lines of Code"></app-counter>
@@ -143,8 +142,8 @@
   <h2 class="mt-4 text-center ">My Recent projects</h2>
   <hr>
   <div class="row py-4" appWhenVisible>
-    
-    
+
+
     <!-- <ng-template ngFor let-project="$implicit" [ngForOf]="recentProjects" let-last="last" let-first="first">
     </ng-template> -->
 
@@ -196,40 +195,45 @@
   <hr>
   <div class="row py-4">
     <div class="col-md-6 col-12 p-2">
-      <div>
-
+      <form #contactFormRef="ngForm" (ngSubmit)="sendMessage(contactFormRef)">
         <pre>{{contactForm | json}}</pre>
+        <pre>{{contactFormRef.value | json}}</pre>
 
         <div class="form-group">
           <label for="">Name:</label>
-          <input type="text" class="form-control" 
-            [(ngModel)]="contactForm.name">
+          <input type="text" class="form-control" #nameRef="ngModel" [ngModel]="contactForm.name" name="name">
+          <!-- {{nameRef.value}} -->
+
         </div>
         <div class="form-group">
           <label for="">Email:</label>
-          <input type="email" class="form-control" [(ngModel)]="contactForm.email" >
+          <input type="email" class="form-control" [ngModel]="contactForm.email" name="email">
         </div>
         <div class="form-group">
           <label for="">
-            <input type="checkbox" 
-              [(ngModel)]="contactForm.agreement"> I agree to <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+            <input type="checkbox" [ngModel]="contactForm.agreement" name="agreement"> I agree to <a href="#">Terms of
+              Service</a> and <a href="#">Privacy Policy</a>.
           </label>
         </div>
-        <div class="form-group">
-          <label for="">Choose your topic:</label>
-          <select  class="form-control" [(ngModel)]="contactForm.topic">
-            <option value="existing">Work on existing project</option>
-            <option value="testimonial">Send us testimonial</option>
-            <option value="other">Other topic</option>
-            <option value="new">Ask about your new project idea</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <textarea class="form-control"  [(ngModel)]="contactForm.message"
-            placeholder="Your message goes here.."></textarea>
-        </div>
-        <button class="float-right btn btn-primary" (click)="sendMessage()">Send Message</button>
-      </div>
+        <ng-container ngModelGroup="contents">
+          <div class="form-group">
+            <label for="">Choose your topic:</label>
+            <select class="form-control" [ngModel]="contactForm.contents.topic" name="topic">
+              <option value="">-- Select topic --</option>
+              <option value="existing">Work on existing project</option>
+              <option value="testimonial">Send us testimonial</option>
+              <option value="other">Other topic</option>
+              <option value="new">Ask about your new project idea</option>
+            </select>
+          </div>
+          <div class="form-group" *ngIf="contactFormRef.value?.contents?.topic">
+            <textarea class="form-control" [ngModel]="contactForm.contents.message" name="message"
+              placeholder="Your message goes here.."></textarea>
+          </div>
+        </ng-container>
+        <button class="btn btn-danger" (click)="resetForm()">Reset</button>
+        <button class="btn btn-primary" type="submit">Send Message</button>
+      </form>
     </div>
     <div class="col-md-6 col-12 p-4">
       <h3>Or contact me here:</h3>
