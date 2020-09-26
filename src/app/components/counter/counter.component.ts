@@ -1,6 +1,7 @@
-import { ChangeDetectionStrategy, ChangeDetectorRef, Component, DoCheck, ElementRef, Input, NgZone, OnInit, ViewChild } from '@angular/core';
+import { ChangeDetectionStrategy, ChangeDetectorRef, Component, DoCheck, ElementRef, Input, NgZone, OnInit, Optional, ViewChild } from '@angular/core';
 
 import * as Odometer from 'odometer'
+import { WhenVisibleDirective } from 'src/app/directives/when-visible.directive';
 
 @Component({
   selector: 'app-counter',
@@ -25,6 +26,8 @@ export class CounterComponent implements OnInit, DoCheck {
   grow = 0
 
   constructor(
+    @Optional()
+    private visiblility: WhenVisibleDirective,
     private cdr: ChangeDetectorRef,
     private zone: NgZone) { }
 
@@ -33,15 +36,25 @@ export class CounterComponent implements OnInit, DoCheck {
   }
 
   updateAnimation = false
+  odometer
 
   ngAfterViewInit() {
-    let odometer
     this.zone.runOutsideAngular(() => {
-      odometer = new Odometer({
+      this.odometer = new Odometer({
         el: this.counterElemRef.nativeElement,
       })
 
-      odometer.update(this.currentValue)
+      if (this.visiblility) {
+        this.visiblility.visibilityChange.subscribe(visible => {
+          if (visible) {
+            this.odometer.update(this.currentValue)
+            this.startGrowing()
+          }
+        })
+      } else {
+        this.odometer.update(this.currentValue)
+        this.startGrowing()
+      }
     })
 
     // setInterval(()=>{
@@ -51,29 +64,33 @@ export class CounterComponent implements OnInit, DoCheck {
     //   // this.counterElemRef.nativeElement.innerText = this.value
     // },1000)
 
+    this.startGrowing();
+  }
+
+  intervalHandler
+
+  private startGrowing() {
     if (this.grow) {
       this.zone.runOutsideAngular(() => {
         this.intervalHandler = setInterval(() => {
           // Grow counter
-          this.currentValue += this.grow
-          odometer.update(this.currentValue)
+          this.currentValue += this.grow;
+          this.odometer.update(this.currentValue);
 
           this.zone.run(() => {
 
             // Add pulse animation and remove after 1s
-            this.updateAnimation = true
-            setTimeout(() => { this.updateAnimation = false }, 1000)
+            this.updateAnimation = true;
+            setTimeout(() => { this.updateAnimation = false; }, 1000);
 
-          })
+          });
         },
           // Update at random between 3s and 8s
           3000 + (Math.random() * 5000)
-        )
-      })
+        );
+      });
     }
   }
-
-  intervalHandler
 
   ngOnDestroy(): void {
     //Called once, before the instance is destroyed.

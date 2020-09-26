@@ -6,10 +6,10 @@
   <h4 class="pt-4">Welcome to my Web Portfolio</h4>
 </app-herobar>
 
-<div class="container">
+<div class="container"  appWhenVisible #visRef="whenVisible">
   <h2 class="mt-4 text-center">Who Am I?</h2>
   <div class="row py-4">
-    <div class="col slideInLeft animate">
+    <div class="col" appSlideIn="left">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quae ut error tempore veritatis iste autem
         velit alias debitis vitae delectus quasi nihil atque voluptatem corrupti iusto eum, blanditiis illum.</p>
       <a href="#" [hidden]="false" (click)="readmore = !readmore">Read more</a>
@@ -21,21 +21,27 @@
 
     </div>
     <div class="col">
-      <app-progressbar value="25" label="Angular" status="danger" striped></app-progressbar>
+      <app-progressbar [value]="visRef.wasVisible? 25 : 0" label="Angular" status="danger" striped></app-progressbar>
 
-      <app-progressbar value="50" label="CSS" status="info" striped></app-progressbar>
+      <app-progressbar [value]="visRef.wasVisible? 50 : 0" label="CSS" status="info" striped></app-progressbar>
 
-      <app-progressbar [value]="50 + 25" label="HTML" status="success" striped></app-progressbar>
+      <app-progressbar [value]="visRef.wasVisible? 75 : 0" label="HTML" status="success" striped></app-progressbar>
     </div>
   </div>
 </div>
 
 <!-- What I do -->
-<div class="container">
+<div class="container" appWhenVisible>
   <h2 class="mt-4 text-center">What I do</h2>
   <hr>
-  <div class="row py-4">
-    <div class="col-md-6 col-12 p2" appSlideIn="left">
+  <!-- <div class="row py-4" 
+    appWhenVisible 
+    [threshold]="0.5"
+    (visibilityChange)="$event && menuRef.animate = true">
+    <div class="col-md-6 col-12 p2" 
+        appSlideIn="left" [delay]="-1" #menuRef="slideIn"> -->
+  <div class="row py-4"  >
+    <div class="col-md-6 col-12 p2"  appSlideIn="left">
       <!--  -->
       <div class="nav flex-column nav-pills text-lg-right">
         <a href="javascript:" class="nav-link" (click)="currentTab = 'marketing' ">Marketing and sales langing pages
@@ -79,9 +85,10 @@
 
 
 <!-- My experience -->
-<div class="container">
+<div class="container" appWhenVisible>
   <div class="row py-4">
-    <div class="col-md-6 col-12 p-2">
+    <div class="col-md-6 col-12 p-2" 
+    appSlideIn="left" >
       <h3>My experience</h3>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tempora nesciunt cum accusamus
       praesentium quos, dolore dicta animi deserunt doloribus neque ex iusto esse assumenda excepturi vitae aut nihil
@@ -89,7 +96,8 @@
       praesentium quos, dolore dicta animi deserunt doloribus neque ex iusto esse assumenda excepturi vitae aut nihil
       quidem
     </div>
-    <div class="col-md-6 col-12 p-2">
+    <div class="col-md-6 col-12 p-2" 
+    appSlideIn="right">
       <h3>My skills</h3>
       <p>
         Dolor tempora nesciunt cum accusamus praesentium quos, dolore dicta animi deserunt doloribus neque ex iusto esse
@@ -110,10 +118,10 @@
 </div>
 
 <!--  My Work In Numbers-->
-<div class="container">
+<div class="container" appWhenVisible [threshold]="1">
   <h2 class="mt-4 text-center">My Work In Numbers</h2>
   <hr>
-  <div class="d-flex flex-column flex-md-row justify-content-around pb-5">
+  <div class="d-flex flex-column flex-md-row justify-content-around pb-5" >
     <app-counter [value]="100" label="Clients"></app-counter>
     <app-counter [value]="2000" [grow]="1" label="Coffes"></app-counter>
     <app-counter [value]="11000" [grow]="23" label="Lines of Code"></app-counter>
@@ -134,13 +142,15 @@
 <div class="container ">
   <h2 class="mt-4 text-center ">My Recent projects</h2>
   <hr>
-  <div class="row py-4">
-
+  <div class="row py-4" appWhenVisible>
+    
+    
     <!-- <ng-template ngFor let-project="$implicit" [ngForOf]="recentProjects" let-last="last" let-first="first">
     </ng-template> -->
 
-    <div class="col slideUp animate" *ngFor="let project of recentProjects; let isLast = last; let isFirst = first; index as i"
-      [ngClass]="{ firstProject: isLast == true, lastProject: isLast==true}">
+    <div class="col" *ngFor="let project of recentProjects; let isLast = last; let isFirst = first; index as i"
+      [ngClass]="{ firstProject: isLast == true, lastProject: isLast==true}"
+      [appSlideIn]="isFirst == true? 'left' : (isLast==true? 'right' : 'up')">
       <div class="card">
         <img class="img-fluid" [src]="project.image">
         <div class="card-body text-center ">

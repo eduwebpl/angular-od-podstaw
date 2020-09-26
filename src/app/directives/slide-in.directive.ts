@@ -1,7 +1,9 @@
-import { Directive, ElementRef, HostBinding, Input } from '@angular/core';
+import { Directive, ElementRef, HostBinding, Input, Optional } from '@angular/core';
+import { WhenVisibleDirective } from './when-visible.directive';
 
 @Directive({
   selector: '[appSlideIn]',
+  exportAs: 'slideIn'
   // host: {
   //   '[class.animate]': 'animate'
   // }
@@ -25,17 +27,34 @@ export class SlideInDirective {
   @Input()
   delay = 1000;
 
-  constructor(private elem: ElementRef<HTMLElement>) {
+  constructor(
+    private elem: ElementRef<HTMLElement>,
+    @Optional() private isVisibleDirective: WhenVisibleDirective,
+  ) {
   }
 
   ngOnInit() {
-    this.handler = setTimeout(() => {
-      // this.elem.nativeElement.classList.add('animate')
-      this.animate = true
-    }, this.delay)
+    if (this.isVisibleDirective) {
+      this.isVisibleDirective.visibilityChange.subscribe(visible => {
+        if (visible && !this.animate) {
+          this.delay = 0
+          this.animateNow();
+        }
+      })
+    }else{
+      this.animateNow()
+    }
+
   }
 
   handler
+
+  animateNow() {
+    this.handler = setTimeout(() => {
+      // this.elem.nativeElement.classList.add('animate')
+      this.animate = true;
+    }, this.delay);
+  }
 
   ngOnDestroy(): void {
     clearTimeout(this.handler)
