@@ -13,6 +13,7 @@ import { TestimonialComponent } from './components/testimonial/testimonial.compo
 import { AvatarComponent } from './components/avatar/avatar.component';
 import { RatingComponent } from './components/rating/rating.component';
 import { CounterComponent } from './components/counter/counter.component';
+import { SlideInDirective } from './directives/slide-in.directive';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CounterComponent } from './components/counter/counter.component';
     TestimonialComponent,
     AvatarComponent,
     RatingComponent,
-    CounterComponent
+    CounterComponent,
+    SlideInDirective
   ],
   imports: [
     BrowserModule,

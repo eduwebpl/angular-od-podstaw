@@ -53,7 +53,7 @@ export class CounterComponent implements OnInit, DoCheck {
 
     if (this.grow) {
       this.zone.runOutsideAngular(() => {
-        setInterval(() => {
+        this.intervalHandler = setInterval(() => {
           // Grow counter
           this.currentValue += this.grow
           odometer.update(this.currentValue)
@@ -71,6 +71,14 @@ export class CounterComponent implements OnInit, DoCheck {
         )
       })
     }
+  }
+
+  intervalHandler
+
+  ngOnDestroy(): void {
+    //Called once, before the instance is destroyed.
+    //Add 'implements OnDestroy' to the class.
+    clearInterval(this.intervalHandler)
   }
 
   checkIfUpdating() {
