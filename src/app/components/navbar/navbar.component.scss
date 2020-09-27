@@ -1,0 +1,12 @@
+.navbar-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+
+:host{
+    height: 56px;
+    display: block;
+}

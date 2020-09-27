@@ -16,6 +16,7 @@ import { CounterComponent } from './components/counter/counter.component';
 import { SlideInDirective } from './directives/slide-in.directive';
 import { WhenVisibleDirective } from './directives/when-visible.directive';
 import { FormsModule } from '@angular/forms';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { FormsModule } from '@angular/forms';
     CounterComponent,
     SlideInDirective,
     WhenVisibleDirective,
+    PageNotFoundComponent,
   ],
   imports: [
     FormsModule,

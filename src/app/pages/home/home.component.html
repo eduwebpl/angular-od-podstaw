@@ -6,13 +6,13 @@
   <h4 class="pt-4">Welcome to my Web Portfolio</h4>
 </app-herobar>
 
-<div class="container" appWhenVisible #visRef="whenVisible">
+<div id="about" class="container" appWhenVisible #visRef="whenVisible">
   <h2 class="mt-4 text-center">Who Am I?</h2>
   <div class="row py-4">
     <div class="col" appSlideIn="left">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quae ut error tempore veritatis iste autem
         velit alias debitis vitae delectus quasi nihil atque voluptatem corrupti iusto eum, blanditiis illum.</p>
-      <a href="#" [hidden]="false" (click)="readmore = !readmore">Read more</a>
+      <a href="#" [hidden]="readmore" (click)="readmore = !readmore">Read more</a>
 
       <p *ngIf="readmore" appSlideIn>Nostrum illo assumenda modi, beatae voluptate repellendus repellat sed impedit
         corporis vitae
@@ -32,7 +32,7 @@
 </div>
 
 <!-- What I do -->
-<div class="container" appWhenVisible>
+<div id="services" class="container" appWhenVisible>
   <h2 class="mt-4 text-center">What I do</h2>
   <hr>
   <!-- <div class="row py-4" 
@@ -138,7 +138,7 @@
 
 
 <!-- My Recent projects  -->
-<div class="container ">
+<div id="projects" class="container ">
   <h2 class="mt-4 text-center ">My Recent projects</h2>
   <hr>
   <div class="row py-4" appWhenVisible>
@@ -190,14 +190,14 @@
 
 
 <!-- Contact Me -->
-<div class="container" id="Contact">
+<div id="contact" class="container">
   <h2 class="mt-4 text-center">Have project in mind? Contact me!</h2>
   <hr>
   <div class="row py-4">
     <div class="col-md-6 col-12 p-2">
       <form #contactFormRef="ngForm" (ngSubmit)="sendMessage(contactFormRef)">
-        <pre>{{contactForm | json}}</pre>
-        <pre>{{contactFormRef.value | json}}</pre>
+        <!-- <pre>{{contactForm | json}}</pre>
+        <pre>{{contactFormRef.value | json}}</pre> -->
 
         <div class="form-group">
           <label for="">Name:</label>
@@ -260,8 +260,11 @@
   <div class="container">
     <div class="row py-4">
       <div class="col">
+        <a href="#" class="float-right">^ Go back to top</a>
         <h3>Angular Agency Website</h3>
         <p>Copyright Eduweb</p>
+
+
       </div>
     </div>
   </div>
