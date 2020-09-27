@@ -7,6 +7,12 @@ body{
 @import "~bootstrap/dist/css/bootstrap.css";
 @import '~odometer/themes/odometer-theme-default.css';
 
+
+html{
+  scroll-behavior: smooth;
+}
+
+
 // $primary:hotpink;
 
 // @import "~bootstrap/scss/bootstrap.scss"

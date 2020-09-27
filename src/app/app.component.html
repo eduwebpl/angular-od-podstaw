@@ -1,6 +1,24 @@
-<div>
-
-  <app-home></app-home>
+<div class="d-flex flex-column" style="min-height: 100vh;">
+  <app-navbar></app-navbar>
   <!-- <app-about></app-about> -->
 
+  <div class="flex-grow-1">
+    <router-outlet></router-outlet>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light">
+    <div class="container">
+      <div class="row py-4">
+        <div class="col">
+          <a href="#" class="float-right text-white">^ Go back to top</a>
+          <h3>Angular Agency Website</h3>
+          <p>Copyright Eduweb</p>
+
+
+        </div>
+      </div>
+    </div>
+  </footer>
 </div>
