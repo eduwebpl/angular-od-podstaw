@@ -1,21 +1,35 @@
 <div class="container ">
   <h2 class="mt-4 text-center ">My Recent projects</h2>
   <hr>
-  <div class="row row-cols-md-4 py-4" appWhenVisible>
 
-    <ng-container *ngFor="let project of recentProjects; index as i">
+  <div class="text-center">
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-secondary"
+      [class.active]="category?.id == cat.id" 
+      *ngFor="let cat of categories"
+        (click)="navigateToCat(cat.id)">{{cat.label}}</button>
+    </div>
+  </div>
 
-      <div class="col mb-4" appSlideIn="up">
-        <div class="card">
-          <img class="img-fluid" [src]="'assets/'+project.images.thumbnail">
-          <div class="card-body text-center ">
-            <h5 class="card-title">{{ project.title }}</h5>
-            <button class="btn btn-link">Read more</button>
+  <div appWhenVisible>
+    <div class="row row-cols-md-4 py-4" appSlideIn="up">
+      <ng-container *ngFor="let project of filtered; index as i">
+
+        <div class="col mb-4">
+          <div class="card">
+            <img class="img-fluid" [src]="'assets/'+project.images.thumbnail">
+            <div class="card-body text-center ">
+              <h5 class="card-title">{{ project.title }}</h5>
+              <button class="btn btn-link" 
+                [routerLink]="['/project',project.id]">
+                Read more
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-    </ng-container>
+      </ng-container>
 
 
+    </div>
   </div>
 </div>

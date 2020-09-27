@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-project-details',
@@ -9,10 +10,17 @@ export class ProjectDetailsComponent implements OnInit {
 
   project = null
 
-  constructor() { }
+  constructor(
+    private route: ActivatedRoute
+  ) { }
 
   ngOnInit(): void {
-    this.project = this.recentProjects[1]
+    this.route.paramMap.subscribe(params => {
+
+      this.project = this.recentProjects.find(p => {
+        return p.id == parseInt(params.get('project_id'))
+      })
+    })
   }
 
   recentProjects = [
