@@ -1,16 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-projects',
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.scss']
+  selector: 'app-project-details',
+  templateUrl: './project-details.component.html',
+  styleUrls: ['./project-details.component.scss']
 })
-export class ProjectsComponent implements OnInit {
+export class ProjectDetailsComponent implements OnInit {
+
+  project = null
+
   constructor() { }
 
   ngOnInit(): void {
+    this.project = this.recentProjects[1]
   }
-
 
   recentProjects = [
     {

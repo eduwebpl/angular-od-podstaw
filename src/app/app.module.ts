@@ -17,6 +17,7 @@ import { SlideInDirective } from './directives/slide-in.directive';
 import { WhenVisibleDirective } from './directives/when-visible.directive';
 import { FormsModule } from '@angular/forms';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { ProjectDetailsComponent } from './pages/project-details/project-details.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
     SlideInDirective,
     WhenVisibleDirective,
     PageNotFoundComponent,
+    ProjectDetailsComponent,
   ],
   imports: [
     FormsModule,

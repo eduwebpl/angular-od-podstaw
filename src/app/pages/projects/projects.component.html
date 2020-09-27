@@ -1,3 +1,21 @@
-<app-navbar></app-navbar>
+<div class="container ">
+  <h2 class="mt-4 text-center ">My Recent projects</h2>
+  <hr>
+  <div class="row row-cols-md-4 py-4" appWhenVisible>
 
-<p>projects works!</p>
+    <ng-container *ngFor="let project of recentProjects; index as i">
+
+      <div class="col mb-4" appSlideIn="up">
+        <div class="card">
+          <img class="img-fluid" [src]="'assets/'+project.images.thumbnail">
+          <div class="card-body text-center ">
+            <h5 class="card-title">{{ project.title }}</h5>
+            <button class="btn btn-link">Read more</button>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+
+
+  </div>
+</div>
