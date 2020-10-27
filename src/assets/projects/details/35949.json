@@ -1,0 +1,30 @@
+{
+  "likes": 91,
+  "id": 35949,
+  "slug": "accor-hotel-seeker-project",
+  "title": "Accor Hotel - Seeker Project",
+  "createdAt": 1553644800,
+  "tags": [
+    "Hotel / Restaurant",
+    "Big Background Images",
+    "WebGL",
+    "Black",
+    "White",
+    "Experimental",
+    "Filters and Effects"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/accor-hotel-seeker-project",
+  "skills": {
+    "design": 99,
+    "html": 80,
+    "css": 42,
+    "angular": 98,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5c7fdf47a820e038979828.png",
+    "src": "/projects/images/5c7fdf47a820e038979828.png",
+    "filename": "5c7fdf47a820e038979828.png"
+  }
+}

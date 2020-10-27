@@ -1,0 +1,35 @@
+{
+  "likes": 113,
+  "id": 40983,
+  "slug": "jacob-mckee-colorist",
+  "title": "Jacob Mckee — Colorist",
+  "createdAt": 1595894400,
+  "tags": [
+    "Film & TV",
+    "Web & Interactive",
+    "Graphic design",
+    "Portfolio",
+    "Video",
+    "Black",
+    "Silver",
+    "White",
+    "Experimental",
+    "Filters and Effects",
+    "Interaction Design",
+    "Photo & Video"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/jacob-mckee-colorist",
+  "skills": {
+    "design": 83,
+    "html": 51,
+    "css": 55,
+    "angular": 92,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5f07ddbe08e8c362546463.jpg",
+    "src": "/projects/images/5f07ddbe08e8c362546463.jpg",
+    "filename": "5f07ddbe08e8c362546463.jpg"
+  }
+}

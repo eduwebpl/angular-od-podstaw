@@ -1,0 +1,39 @@
+{
+  "likes": 88,
+  "id": 39518,
+  "slug": "brother-film-co",
+  "title": "Brother Film Co",
+  "createdAt": 1583712000,
+  "tags": [
+    "Film & TV",
+    "Web & Interactive",
+    "Animation",
+    "Wordpress",
+    "CSS3",
+    "HTML5",
+    "jQuery",
+    "Scrolling",
+    "Video",
+    "WebGL",
+    "Black",
+    "Transitions",
+    "Experimental",
+    "Three.js",
+    "3D",
+    "Microinteractions"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/brother-film-co",
+  "skills": {
+    "design": 79,
+    "html": 73,
+    "css": 60,
+    "angular": 57,
+    "nodejs": 33
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5e53be7e2f500283038189.jpg",
+    "src": "/projects/images/5e53be7e2f500283038189.jpg",
+    "filename": "5e53be7e2f500283038189.jpg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "likes": 189,
+  "id": 37570,
+  "slug": "veley-ross-wedding",
+  "title": "Veley / Ross Wedding",
+  "createdAt": 1566259200,
+  "tags": [
+    "Other",
+    "Animation",
+    "Parallax",
+    "Typography",
+    "WebGL",
+    "Brown",
+    "Green",
+    "White",
+    "Photography",
+    "Transitions",
+    "Experimental",
+    "Gallery",
+    "Gestures / Interaction"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/veley-ross-wedding",
+  "skills": {
+    "design": 98,
+    "html": 66,
+    "css": 91,
+    "angular": 74,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5d4c5855b17e9945829832.png",
+    "src": "/projects/images/5d4c5855b17e9945829832.png",
+    "filename": "5d4c5855b17e9945829832.png"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "likes": 125,
+  "id": 36577,
+  "slug": "kuhl-han",
+  "title": "Kühl & Han",
+  "createdAt": 1558051200,
+  "tags": [
+    "Art & Illustration",
+    "Design Agencies",
+    "Animation",
+    "Clean",
+    "Wordpress",
+    "Fullscreen",
+    "Portfolio",
+    "Typography",
+    "Black",
+    "Orange",
+    "Silver",
+    "Experimental",
+    "3D"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/kuhl-han",
+  "skills": {
+    "design": 72,
+    "html": 64,
+    "css": 62,
+    "angular": 96,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5cd2a04a1d317040955559.png",
+    "src": "/projects/images/5cd2a04a1d317040955559.png",
+    "filename": "5cd2a04a1d317040955559.png"
+  }
+}

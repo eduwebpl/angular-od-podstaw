@@ -1,0 +1,39 @@
+{
+  "likes": 104,
+  "id": 38762,
+  "slug": "flat-ui-and-a-half",
+  "title": "Flat UI And A Half",
+  "createdAt": 1578182400,
+  "tags": [
+    "Art & Illustration",
+    "Web & Interactive",
+    "Animation",
+    "Colorful",
+    "CSS3",
+    "HTML5",
+    "Single page",
+    "WebGL",
+    "Green",
+    "Pink",
+    "Yellow",
+    "Transitions",
+    "Experimental",
+    "Three.js",
+    "3D",
+    "Microinteractions"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/flat-ui-and-a-half",
+  "skills": {
+    "design": 78,
+    "html": 76,
+    "css": 75,
+    "angular": 33,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5df27243bc692784929917.png",
+    "src": "/projects/images/5df27243bc692784929917.png",
+    "filename": "5df27243bc692784929917.png"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "likes": 87,
+  "id": 38704,
+  "slug": "manrope-font",
+  "title": "Manrope Font",
+  "createdAt": 1577404800,
+  "tags": [
+    "Art & Illustration",
+    "Web & Interactive",
+    "CSS3",
+    "HTML5",
+    "Scrolling",
+    "Single page",
+    "Typography",
+    "Web Fonts",
+    "Pink",
+    "Experimental",
+    "Storytelling",
+    "Node.js",
+    "CloudFlare",
+    "Microinteractions"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/manrope-font",
+  "skills": {
+    "design": 94,
+    "html": 93,
+    "css": 47,
+    "angular": 91,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5dea1de93ed5d392166922.jpg",
+    "src": "/projects/images/5dea1de93ed5d392166922.jpg",
+    "filename": "5dea1de93ed5d392166922.jpg"
+  }
+}

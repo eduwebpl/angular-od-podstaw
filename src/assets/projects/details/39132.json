@@ -1,0 +1,37 @@
+{
+  "likes": 133,
+  "id": 39132,
+  "slug": "portes-fermees",
+  "title": "Portes fermées",
+  "createdAt": 1580428800,
+  "tags": [
+    "Culture & Education",
+    "Promotional",
+    "Animation",
+    "CSS3",
+    "HTML5",
+    "Black",
+    "Red",
+    "White",
+    "Transitions",
+    "Experimental",
+    "GSAP Animation",
+    "CloudFlare",
+    "Interaction Design",
+    "Microinteractions"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/portes-fermees",
+  "skills": {
+    "design": 90,
+    "html": 83,
+    "css": 53,
+    "angular": 35,
+    "nodejs": 87
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5e27c33f542b1609921946.jpg",
+    "src": "/projects/images/5e27c33f542b1609921946.jpg",
+    "filename": "5e27c33f542b1609921946.jpg"
+  }
+}

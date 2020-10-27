@@ -1,0 +1,38 @@
+{
+  "likes": 221,
+  "id": 37665,
+  "slug": "aristide-portfolio-2019",
+  "title": "Aristide – Portfolio 2019",
+  "createdAt": 1567123200,
+  "tags": [
+    "Fashion",
+    "Web & Interactive",
+    "Animation",
+    "CSS3",
+    "Graphic design",
+    "Portfolio",
+    "WebGL",
+    "Black",
+    "Orange",
+    "Experimental",
+    "Gallery",
+    "PHP",
+    "GLSL",
+    "Filters and Effects",
+    "Interaction Design"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/aristide-portfolio-2019",
+  "skills": {
+    "design": 88,
+    "html": 86,
+    "css": 55,
+    "angular": 63,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5d68ed2f6f730607941531.jpg",
+    "src": "/projects/images/5d68ed2f6f730607941531.jpg",
+    "filename": "5d68ed2f6f730607941531.jpg"
+  }
+}

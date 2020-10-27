@@ -1,0 +1,37 @@
+{
+  "likes": 271,
+  "id": 35791,
+  "slug": "2018-year-in-review",
+  "title": "2018: Year in Review",
+  "createdAt": 1551657600,
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Clean",
+    "Colorful",
+    "Parallax",
+    "WebGL",
+    "Blue",
+    "Green",
+    "Yellow",
+    "Experimental",
+    "Gallery",
+    "Three.js",
+    "3D",
+    "Microinteractions"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/2018-year-in-review",
+  "skills": {
+    "design": 65,
+    "html": 61,
+    "css": 76,
+    "angular": 61,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5c6d324a44d10906223829.jpg",
+    "src": "/projects/images/5c6d324a44d10906223829.jpg",
+    "filename": "5c6d324a44d10906223829.jpg"
+  }
+}

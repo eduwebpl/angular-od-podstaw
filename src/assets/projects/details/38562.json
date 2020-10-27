@@ -1,0 +1,39 @@
+{
+  "likes": 192,
+  "id": 38562,
+  "slug": "sos-violence-conjugale",
+  "title": "SOS Violence Conjugale",
+  "createdAt": 1574899200,
+  "tags": [
+    "Culture & Education",
+    "Promotional",
+    "Animation",
+    "Colorful",
+    "CSS3",
+    "HTML5",
+    "jQuery",
+    "Black",
+    "Pink",
+    "Yellow",
+    "Experimental",
+    "Illustration",
+    "Storytelling",
+    "GSAP Animation",
+    "CloudFlare",
+    "Microinteractions"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/sos-violence-conjugale",
+  "skills": {
+    "design": 97,
+    "html": 54,
+    "css": 52,
+    "angular": 35,
+    "nodejs": 91
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5dd5c3a010db9001505377.jpg",
+    "src": "/projects/images/5dd5c3a010db9001505377.jpg",
+    "filename": "5dd5c3a010db9001505377.jpg"
+  }
+}

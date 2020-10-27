@@ -1,0 +1,39 @@
+{
+  "likes": 109,
+  "id": 36887,
+  "slug": "renaud-rohlinger-portfolio",
+  "title": "Renaud ROHLINGER - Portfolio",
+  "createdAt": 1560470400,
+  "tags": [
+    "Web & Interactive",
+    "CSS3",
+    "Portfolio",
+    "Responsive Design",
+    "Scrolling",
+    "WebGL",
+    "Black",
+    "Pink",
+    "White",
+    "Experimental",
+    "Apache",
+    "Three.js",
+    "CloudFlare",
+    "3D",
+    "Gestures / Interaction",
+    "Vue.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/renaud-rohlinger-portfolio",
+  "skills": {
+    "design": 98,
+    "html": 95,
+    "css": 81,
+    "angular": 98,
+    "nodejs": 35
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5cf69990c9d30535204588.png",
+    "src": "/projects/images/5cf69990c9d30535204588.png",
+    "filename": "5cf69990c9d30535204588.png"
+  }
+}

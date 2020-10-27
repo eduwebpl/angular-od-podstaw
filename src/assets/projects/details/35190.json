@@ -1,0 +1,35 @@
+{
+  "likes": 69,
+  "id": 35190,
+  "slug": "save-the-air",
+  "title": "Save the air.",
+  "createdAt": 1547078400,
+  "tags": [
+    "Business & Corporate",
+    "Technology",
+    "Animation",
+    "CSS3",
+    "HTML5",
+    "SVG",
+    "Green",
+    "Pink",
+    "Yellow",
+    "Illustration",
+    "Experimental",
+    "Storytelling"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/save-the-air",
+  "skills": {
+    "design": 81,
+    "html": 51,
+    "css": 83,
+    "angular": 34,
+    "nodejs": 90
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5c1bb24586454.jpg",
+    "src": "/projects/images/5c1bb24586454.jpg",
+    "filename": "5c1bb24586454.jpg"
+  }
+}

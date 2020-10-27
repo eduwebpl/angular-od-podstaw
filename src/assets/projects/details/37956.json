@@ -1,0 +1,39 @@
+{
+  "likes": 424,
+  "id": 37956,
+  "slug": "zhenya-rynzhuk-folio-2019",
+  "title": "Zhenya Rynzhuk Folio 2019",
+  "createdAt": 1569888000,
+  "tags": [
+    "Promotional",
+    "Web & Interactive",
+    "Animation",
+    "CSS3",
+    "HTML5",
+    "Portfolio",
+    "Typography",
+    "Pink",
+    "Red",
+    "White",
+    "Experimental",
+    "Responsive",
+    "CloudFlare",
+    "Photo & Video",
+    "404 pages",
+    "Vue.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/zhenya-rynzhuk-folio-2019",
+  "skills": {
+    "design": 74,
+    "html": 84,
+    "css": 57,
+    "angular": 53,
+    "nodejs": 66
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5d83cba4067f1346863848.png",
+    "src": "/projects/images/5d83cba4067f1346863848.png",
+    "filename": "5d83cba4067f1346863848.png"
+  }
+}

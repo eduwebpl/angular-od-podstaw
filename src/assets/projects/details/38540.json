@@ -1,0 +1,40 @@
+{
+  "likes": 135,
+  "id": 38540,
+  "slug": "akaru-studio",
+  "title": "AKARU",
+  "createdAt": 1574985600,
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Animation",
+    "Graphic design",
+    "Portfolio",
+    "Responsive Design",
+    "WebGL",
+    "Blue",
+    "White",
+    "Yellow",
+    "Transitions",
+    "Experimental",
+    "GSAP Animation",
+    "Three.js",
+    "GLSL",
+    "Interaction Design",
+    "Nuxt.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/akaru-studio",
+  "skills": {
+    "design": 84,
+    "html": 72,
+    "css": 78,
+    "angular": 47,
+    "nodejs": 49
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5dd3d4a24b9b0559898354.jpg",
+    "src": "/projects/images/5dd3d4a24b9b0559898354.jpg",
+    "filename": "5dd3d4a24b9b0559898354.jpg"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "likes": 107,
+  "id": 39699,
+  "slug": "polly-kole",
+  "title": "Polly Kole",
+  "createdAt": 1586649600,
+  "tags": [
+    "Art & Illustration",
+    "Web & Interactive",
+    "Colorful",
+    "Unusual Navigation",
+    "WebGL",
+    "Pink",
+    "Experimental",
+    "Gallery",
+    "Sound-Audio",
+    "Node.js",
+    "AngularJS",
+    "Hammer.JS",
+    "GLSL",
+    "Webpack",
+    "3D",
+    "Filters and Effects"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/polly-kole",
+  "skills": {
+    "design": 95,
+    "html": 60,
+    "css": 61,
+    "angular": 30,
+    "nodejs": 71
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5e6778a0adec0866187097.png",
+    "src": "/projects/images/5e6778a0adec0866187097.png",
+    "filename": "5e6778a0adec0866187097.png"
+  }
+}

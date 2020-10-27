@@ -1,0 +1,29 @@
+{
+  "likes": 146,
+  "id": 40500,
+  "slug": "jazzkeys",
+  "title": "JazzKeys",
+  "createdAt": 1591833600,
+  "tags": [
+    "Music & Sound",
+    "Black",
+    "White",
+    "Experimental",
+    "Sound-Audio",
+    "Gestures / Interaction"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/jazzkeys",
+  "skills": {
+    "design": 96,
+    "html": 51,
+    "css": 46,
+    "angular": 75,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5ecd51a0a141e171068070.jpg",
+    "src": "/projects/images/5ecd51a0a141e171068070.jpg",
+    "filename": "5ecd51a0a141e171068070.jpg"
+  }
+}

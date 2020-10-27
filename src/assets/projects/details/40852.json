@@ -1,0 +1,36 @@
+{
+  "likes": 39,
+  "id": 40852,
+  "slug": "theremix-virtual-theremin",
+  "title": "THEREMIX - Virtual Theremin",
+  "createdAt": 1596240000,
+  "tags": [
+    "Music & Sound",
+    "Web & Interactive",
+    "CSS3",
+    "Retro",
+    "Single page",
+    "WebGL",
+    "Black",
+    "Red",
+    "Yellow",
+    "Experimental",
+    "PixiJS",
+    "Gestures / Interaction",
+    "Microinteractions"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/theremix-virtual-theremin",
+  "skills": {
+    "design": 90,
+    "html": 58,
+    "css": 79,
+    "angular": 90,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5efc5fddb3b49028383897.png",
+    "src": "/projects/images/5efc5fddb3b49028383897.png",
+    "filename": "5efc5fddb3b49028383897.png"
+  }
+}

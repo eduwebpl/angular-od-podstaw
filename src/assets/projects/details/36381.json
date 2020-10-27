@@ -1,0 +1,40 @@
+{
+  "likes": 101,
+  "id": 36381,
+  "slug": "the-hook-group",
+  "title": "The Hook Group",
+  "createdAt": 1556236800,
+  "tags": [
+    "Film & TV",
+    "Promotional",
+    "Animation",
+    "CSS3",
+    "HTML5",
+    "Parallax",
+    "Responsive Design",
+    "Video",
+    "WebGL",
+    "Red",
+    "Silver",
+    "White",
+    "Experimental",
+    "Three.js",
+    "Craft CMS",
+    "Interaction Design",
+    "UI design"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/the-hook-group",
+  "skills": {
+    "design": 84,
+    "html": 58,
+    "css": 49,
+    "angular": 88,
+    "nodejs": 89
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5cb6d5a14e442182574589.jpg",
+    "src": "/projects/images/5cb6d5a14e442182574589.jpg",
+    "filename": "5cb6d5a14e442182574589.jpg"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "likes": 155,
+  "id": 39811,
+  "slug": "ussr-design-almanac",
+  "title": "USSR Design Almanac",
+  "createdAt": 1587081600,
+  "tags": [
+    "Culture & Education",
+    "Other",
+    "Animation",
+    "Retro",
+    "Typography",
+    "Black",
+    "Red",
+    "White",
+    "Transitions",
+    "Experimental",
+    "Gallery",
+    "Storytelling"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/ussr-design-almanac",
+  "skills": {
+    "design": 79,
+    "html": 72,
+    "css": 48,
+    "angular": 58,
+    "nodejs": 45
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5e7c6769ec116660995724.jpg",
+    "src": "/projects/images/5e7c6769ec116660995724.jpg",
+    "filename": "5e7c6769ec116660995724.jpg"
+  }
+}

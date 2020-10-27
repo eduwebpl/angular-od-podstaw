@@ -1,0 +1,37 @@
+{
+  "likes": 127,
+  "id": 38888,
+  "slug": "redcollar-font",
+  "title": "RedCollar Font",
+  "createdAt": 1579910400,
+  "tags": [
+    "Design Agencies",
+    "Promotional",
+    "Animation",
+    "Typography",
+    "WebGL",
+    "Black",
+    "Red",
+    "White",
+    "Experimental",
+    "GSAP Animation",
+    "Three.js",
+    "GLSL",
+    "Filters and Effects",
+    "Interaction Design"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/redcollar-font",
+  "skills": {
+    "design": 69,
+    "html": 88,
+    "css": 47,
+    "angular": 87,
+    "nodejs": 99
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5e020ae2e7eab146356915.jpg",
+    "src": "/projects/images/5e020ae2e7eab146356915.jpg",
+    "filename": "5e020ae2e7eab146356915.jpg"
+  }
+}

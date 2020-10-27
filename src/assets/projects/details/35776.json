@@ -1,0 +1,38 @@
+{
+  "likes": 204,
+  "id": 35776,
+  "slug": "max-shkret-artist-portfolio",
+  "title": "Max Shkret artist portfolio",
+  "createdAt": 1551225600,
+  "tags": [
+    "Art & Illustration",
+    "Promotional",
+    "CSS3",
+    "HTML5",
+    "WebGL",
+    "Pink",
+    "Silver",
+    "White",
+    "360",
+    "Experimental",
+    "Gallery",
+    "GSAP Animation",
+    "PixiJS",
+    "3D",
+    "Vue.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/max-shkret-artist-portfolio",
+  "skills": {
+    "design": 67,
+    "html": 69,
+    "css": 98,
+    "angular": 34,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5f280fcb09775702183724.png",
+    "src": "/projects/images/5f280fcb09775702183724.png",
+    "filename": "5f280fcb09775702183724.png"
+  }
+}

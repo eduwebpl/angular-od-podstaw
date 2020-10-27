@@ -1,0 +1,35 @@
+{
+  "likes": 136,
+  "id": 37006,
+  "slug": "jomor-design-1",
+  "title": "Jomor Design",
+  "createdAt": 1561680000,
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Clean",
+    "Graphic design",
+    "Minimal",
+    "Responsive Design",
+    "Typography",
+    "Black",
+    "Silver",
+    "White",
+    "Experimental",
+    "Copy design"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/jomor-design-1",
+  "skills": {
+    "design": 97,
+    "html": 52,
+    "css": 55,
+    "angular": 57,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5d074d1f54983725933823.jpg",
+    "src": "/projects/images/5d074d1f54983725933823.jpg",
+    "filename": "5d074d1f54983725933823.jpg"
+  }
+}

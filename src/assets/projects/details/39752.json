@@ -1,0 +1,37 @@
+{
+  "likes": 113,
+  "id": 39752,
+  "slug": "emanuele-milella",
+  "title": "Emanuele Milella",
+  "createdAt": 1585872000,
+  "tags": [
+    "Promotional",
+    "Web & Interactive",
+    "Portfolio",
+    "Responsive Design",
+    "Typography",
+    "WebGL",
+    "Black",
+    "Yellow",
+    "Experimental",
+    "Three.js",
+    "Interaction Design",
+    "UI design",
+    "404 pages",
+    "Nuxt.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/emanuele-milella",
+  "skills": {
+    "design": 96,
+    "html": 77,
+    "css": 53,
+    "angular": 37,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5e6ebd10c69bd132607316.jpg",
+    "src": "/projects/images/5e6ebd10c69bd132607316.jpg",
+    "filename": "5e6ebd10c69bd132607316.jpg"
+  }
+}

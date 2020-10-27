@@ -1,0 +1,37 @@
+{
+  "likes": 133,
+  "id": 38845,
+  "slug": "fpp",
+  "title": "FPP",
+  "createdAt": 1578355200,
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Animation",
+    "Colorful",
+    "Navigation Menu",
+    "Parallax",
+    "WebGL",
+    "Green",
+    "Pink",
+    "Yellow",
+    "Experimental",
+    "ReactJS﻿",
+    "3D",
+    "Interaction Design"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/fpp",
+  "skills": {
+    "design": 85,
+    "html": 56,
+    "css": 75,
+    "angular": 42,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5dfb498fcb3db833395199.png",
+    "src": "/projects/images/5dfb498fcb3db833395199.png",
+    "filename": "5dfb498fcb3db833395199.png"
+  }
+}

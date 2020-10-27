@@ -1,0 +1,32 @@
+{
+  "likes": 82,
+  "id": 39409,
+  "slug": "bh-studio",
+  "title": "Bh Studio",
+  "createdAt": 1583625600,
+  "tags": [
+    "Fullscreen",
+    "Photography",
+    "Portfolio",
+    "WebGL",
+    "Black",
+    "Brown",
+    "Yellow",
+    "Photography",
+    "Experimental"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/bh-studio",
+  "skills": {
+    "design": 86,
+    "html": 66,
+    "css": 62,
+    "angular": 45,
+    "nodejs": 49
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5e4565369e99a412089599.jpg",
+    "src": "/projects/images/5e4565369e99a412089599.jpg",
+    "filename": "5e4565369e99a412089599.jpg"
+  }
+}

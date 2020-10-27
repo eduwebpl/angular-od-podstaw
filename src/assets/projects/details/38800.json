@@ -1,0 +1,33 @@
+{
+  "likes": 103,
+  "id": 38800,
+  "slug": "weird-christmas",
+  "title": "Weird Christmas",
+  "createdAt": 1577836800,
+  "tags": [
+    "Art & Illustration",
+    "Web & Interactive",
+    "Colorful",
+    "Flat Design",
+    "Fullscreen",
+    "Graphic design",
+    "Brown",
+    "Red",
+    "Experimental",
+    "Microinteractions"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/weird-christmas",
+  "skills": {
+    "design": 76,
+    "html": 68,
+    "css": 75,
+    "angular": 33,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5df7bb7ea1679092218859.jpg",
+    "src": "/projects/images/5df7bb7ea1679092218859.jpg",
+    "filename": "5df7bb7ea1679092218859.jpg"
+  }
+}

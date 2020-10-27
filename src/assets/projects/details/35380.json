@@ -1,0 +1,32 @@
+{
+  "likes": 68,
+  "id": 35380,
+  "slug": "snoop-dogs",
+  "title": "Snoop Dogs",
+  "createdAt": 1548115200,
+  "tags": [
+    "Games & Entertainment",
+    "Web & Interactive",
+    "Animation",
+    "Colorful",
+    "Unusual Navigation",
+    "Black",
+    "Red",
+    "Yellow",
+    "Experimental"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/snoop-dogs",
+  "skills": {
+    "design": 82,
+    "html": 62,
+    "css": 45,
+    "angular": 34,
+    "nodejs": 77
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5c3e0a6444c29.png",
+    "src": "/projects/images/5c3e0a6444c29.png",
+    "filename": "5c3e0a6444c29.png"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "likes": 174,
+  "id": 39757,
+  "slug": "madeleine-dalla",
+  "title": "Madeleine Dalla",
+  "createdAt": 1585008000,
+  "tags": [
+    "Web & Interactive",
+    "Animation",
+    "Portfolio",
+    "Typography",
+    "Blue",
+    "Orange",
+    "White",
+    "Photography",
+    "Experimental",
+    "Gallery",
+    "Interaction Design",
+    "Nuxt.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/madeleine-dalla",
+  "skills": {
+    "design": 94,
+    "html": 78,
+    "css": 52,
+    "angular": 73,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5e6fcfaadf4b0305073732.png",
+    "src": "/projects/images/5e6fcfaadf4b0305073732.png",
+    "filename": "5e6fcfaadf4b0305073732.png"
+  }
+}

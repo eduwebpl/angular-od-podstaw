@@ -1,0 +1,39 @@
+{
+  "likes": 53,
+  "id": 38998,
+  "slug": "let-girls-dream",
+  "title": "Let Girls Dream",
+  "createdAt": 1581120000,
+  "tags": [
+    "Film & TV",
+    "Web & Interactive",
+    "CSS3",
+    "HTML5",
+    "Unusual Navigation",
+    "Pink",
+    "White",
+    "Yellow",
+    "Transitions",
+    "360",
+    "Experimental",
+    "Three.js",
+    "ReactJS﻿",
+    "Interaction Design",
+    "UI design",
+    "Microinteractions"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/let-girls-dream",
+  "skills": {
+    "design": 73,
+    "html": 59,
+    "css": 49,
+    "angular": 67,
+    "nodejs": 89
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5e1732ce94acb239369861.jpg",
+    "src": "/projects/images/5e1732ce94acb239369861.jpg",
+    "filename": "5e1732ce94acb239369861.jpg"
+  }
+}

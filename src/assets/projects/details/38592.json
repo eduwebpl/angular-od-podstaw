@@ -1,0 +1,38 @@
+{
+  "likes": 123,
+  "id": 38592,
+  "slug": "rimowa-unique",
+  "title": "Rimowa Unique",
+  "createdAt": 1576195200,
+  "tags": [
+    "E-Commerce",
+    "Web & Interactive",
+    "Clean",
+    "CSS3",
+    "HTML5",
+    "WebGL",
+    "Blue",
+    "Silver",
+    "White",
+    "360",
+    "Experimental",
+    "Three.js",
+    "ReactJS﻿",
+    "Webpack",
+    "3D"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/rimowa-unique",
+  "skills": {
+    "design": 71,
+    "html": 54,
+    "css": 97,
+    "angular": 46,
+    "nodejs": 81
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5ddc0a34b789d894663157.jpg",
+    "src": "/projects/images/5ddc0a34b789d894663157.jpg",
+    "filename": "5ddc0a34b789d894663157.jpg"
+  }
+}

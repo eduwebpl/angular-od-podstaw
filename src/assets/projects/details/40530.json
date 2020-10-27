@@ -1,0 +1,41 @@
+{
+  "likes": 86,
+  "id": 40530,
+  "slug": "safari-riot",
+  "title": "Safari Riot",
+  "createdAt": 1593734400,
+  "tags": [
+    "Music & Sound",
+    "Web & Interactive",
+    "CSS3",
+    "HTML5",
+    "Single page",
+    "Typography",
+    "Unusual Navigation",
+    "Video",
+    "Black",
+    "Blue",
+    "Orange",
+    "Experimental",
+    "Responsive",
+    "Sound-Audio",
+    "GSAP Animation",
+    "CloudFlare",
+    "Webpack",
+    "Craft CMS"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/safari-riot",
+  "skills": {
+    "design": 99,
+    "html": 72,
+    "css": 50,
+    "angular": 78,
+    "nodejs": 54
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5ed02de335772735245720.png",
+    "src": "/projects/images/5ed02de335772735245720.png",
+    "filename": "5ed02de335772735245720.png"
+  }
+}

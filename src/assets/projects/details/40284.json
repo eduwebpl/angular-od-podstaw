@@ -1,0 +1,40 @@
+{
+  "likes": 98,
+  "id": 40284,
+  "slug": "shutdown-gallery",
+  "title": "SHUTDOWN.gallery",
+  "createdAt": 1589414400,
+  "tags": [
+    "Architecture",
+    "Web & Interactive",
+    "Graphic design",
+    "Single page",
+    "WebGL",
+    "Black",
+    "Silver",
+    "White",
+    "360",
+    "Experimental",
+    "Gallery",
+    "WebVR",
+    "Three.js",
+    "CloudFlare",
+    "GLSL",
+    "3D",
+    "Gestures / Interaction"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/shutdown-gallery",
+  "skills": {
+    "design": 60,
+    "html": 63,
+    "css": 96,
+    "angular": 60,
+    "nodejs": 67
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5eb50302dfc1e169158840.jpg",
+    "src": "/projects/images/5eb50302dfc1e169158840.jpg",
+    "filename": "5eb50302dfc1e169158840.jpg"
+  }
+}

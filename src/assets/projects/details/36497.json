@@ -1,0 +1,38 @@
+{
+  "likes": 189,
+  "id": 36497,
+  "slug": "martin-ehrlich-portfolio",
+  "title": "Martin Ehrlich – Portfolio",
+  "createdAt": 1557360000,
+  "tags": [
+    "Promotional",
+    "Web & Interactive",
+    "Animation",
+    "CSS3",
+    "Graphic design",
+    "Minimal",
+    "Navigation Menu",
+    "Portfolio",
+    "SVG",
+    "Unusual Navigation",
+    "Black",
+    "White",
+    "Experimental",
+    "GSAP Animation",
+    "ReactJS﻿"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/martin-ehrlich-portfolio",
+  "skills": {
+    "design": 68,
+    "html": 78,
+    "css": 41,
+    "angular": 37,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5cc802736afa3472080547.png",
+    "src": "/projects/images/5cc802736afa3472080547.png",
+    "filename": "5cc802736afa3472080547.png"
+  }
+}

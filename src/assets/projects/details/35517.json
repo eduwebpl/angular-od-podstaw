@@ -1,0 +1,39 @@
+{
+  "likes": 138,
+  "id": 35517,
+  "slug": "bounds-agency",
+  "title": "Bounds Agency",
+  "createdAt": 1550275200,
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Animation",
+    "Portfolio",
+    "Scrolling",
+    "WebGL",
+    "Black",
+    "Red",
+    "White",
+    "Experimental",
+    "GSAP Animation",
+    "PixiJS",
+    "Forms and Input",
+    "Filters and Effects",
+    "About Page",
+    "Vue.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/bounds-agency",
+  "skills": {
+    "design": 95,
+    "html": 81,
+    "css": 96,
+    "angular": 63,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5c4e086fc1375.jpg",
+    "src": "/projects/images/5c4e086fc1375.jpg",
+    "filename": "5c4e086fc1375.jpg"
+  }
+}

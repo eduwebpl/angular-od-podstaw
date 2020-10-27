@@ -1,0 +1,35 @@
+{
+  "likes": 169,
+  "id": 38752,
+  "slug": "david-william-baum",
+  "title": "David William Baum",
+  "createdAt": 1577145600,
+  "tags": [
+    "Promotional",
+    "Photography",
+    "Portfolio",
+    "Typography",
+    "Unusual Navigation",
+    "Black",
+    "Blue",
+    "Pink",
+    "Photography",
+    "Experimental",
+    "Gestures / Interaction",
+    "Interaction Design"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/david-william-baum",
+  "skills": {
+    "design": 65,
+    "html": 55,
+    "css": 71,
+    "angular": 75,
+    "nodejs": 41
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5df15e6a37a2f342763395.jpg",
+    "src": "/projects/images/5df15e6a37a2f342763395.jpg",
+    "filename": "5df15e6a37a2f342763395.jpg"
+  }
+}

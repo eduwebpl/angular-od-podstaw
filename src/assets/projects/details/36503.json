@@ -1,0 +1,40 @@
+{
+  "likes": 140,
+  "id": 36503,
+  "slug": "square-interface-game",
+  "title": "Square - Interface Game",
+  "createdAt": 1557273600,
+  "tags": [
+    "Mobile & Apps",
+    "Web & Interactive",
+    "Animation",
+    "Fullscreen",
+    "SVG",
+    "Unusual Navigation",
+    "WebGL",
+    "Pink",
+    "Red",
+    "Illustration",
+    "Experimental",
+    "Sound-Audio",
+    "GSAP Animation",
+    "AngularJS",
+    "PixiJS",
+    "Webpack",
+    "Filters and Effects"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/square-interface-game",
+  "skills": {
+    "design": 90,
+    "html": 77,
+    "css": 77,
+    "angular": 87,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5cc8b8fce95a3137282814.png",
+    "src": "/projects/images/5cc8b8fce95a3137282814.png",
+    "filename": "5cc8b8fce95a3137282814.png"
+  }
+}

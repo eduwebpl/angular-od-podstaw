@@ -1,0 +1,38 @@
+{
+  "likes": 74,
+  "id": 40511,
+  "slug": "sempai",
+  "title": "SEMPAI",
+  "createdAt": 1593907200,
+  "tags": [
+    "Other",
+    "Web & Interactive",
+    "Animation",
+    "Portfolio",
+    "WebGL",
+    "Black",
+    "White",
+    "Experimental",
+    "GSAP Animation",
+    "Three.js",
+    "GLSL",
+    "3D",
+    "Gestures / Interaction",
+    "Filters and Effects",
+    "404 pages"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/sempai",
+  "skills": {
+    "design": 80,
+    "html": 78,
+    "css": 77,
+    "angular": 34,
+    "nodejs": 32
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5ece8eb6f40f3115508994.jpg",
+    "src": "/projects/images/5ece8eb6f40f3115508994.jpg",
+    "filename": "5ece8eb6f40f3115508994.jpg"
+  }
+}

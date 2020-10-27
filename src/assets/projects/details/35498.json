@@ -1,0 +1,41 @@
+{
+  "likes": 109,
+  "id": 35498,
+  "slug": "next-level-fairs",
+  "title": "Next Level Fairs",
+  "createdAt": 1549324800,
+  "tags": [
+    "Art & Illustration",
+    "Web & Interactive",
+    "Animation",
+    "CSS3",
+    "Parallax",
+    "Responsive Design",
+    "Typography",
+    "WebGL",
+    "Brown",
+    "Green",
+    "Yellow",
+    "Experimental",
+    "GSAP Animation",
+    "AngularJS",
+    "PixiJS",
+    "Lo-dash",
+    "Interaction Design",
+    "Photo & Video"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/next-level-fairs",
+  "skills": {
+    "design": 94,
+    "html": 63,
+    "css": 60,
+    "angular": 55,
+    "nodejs": 56
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5c49baf0c39f4.png",
+    "src": "/projects/images/5c49baf0c39f4.png",
+    "filename": "5c49baf0c39f4.png"
+  }
+}

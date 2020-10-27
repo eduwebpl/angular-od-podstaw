@@ -1,0 +1,35 @@
+{
+  "likes": 133,
+  "id": 35093,
+  "slug": "gothamsiti",
+  "title": "Gothamsiti",
+  "createdAt": 1546732800,
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Animation",
+    "Portfolio",
+    "Unusual Navigation",
+    "WebGL",
+    "Black",
+    "White",
+    "Experimental",
+    "Three.js",
+    "3D",
+    "tween.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/gothamsiti",
+  "skills": {
+    "design": 70,
+    "html": 60,
+    "css": 62,
+    "angular": 81,
+    "nodejs": 87
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5c112458218a2.jpg",
+    "src": "/projects/images/5c112458218a2.jpg",
+    "filename": "5c112458218a2.jpg"
+  }
+}

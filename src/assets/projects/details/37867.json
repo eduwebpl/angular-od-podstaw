@@ -1,0 +1,36 @@
+{
+  "likes": 140,
+  "id": 37867,
+  "slug": "active-theory-v5",
+  "title": "Active Theory v5",
+  "createdAt": 1569715200,
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Clean",
+    "Fullscreen",
+    "WebGL",
+    "Black",
+    "Blue",
+    "Silver",
+    "Experimental",
+    "Gallery",
+    "Filters and Effects",
+    "Photo & Video",
+    "About Page"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/active-theory-v5",
+  "skills": {
+    "design": 90,
+    "html": 69,
+    "css": 48,
+    "angular": 69,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5da99a93f2401971444522.jpg",
+    "src": "/projects/images/5da99a93f2401971444522.jpg",
+    "filename": "5da99a93f2401971444522.jpg"
+  }
+}

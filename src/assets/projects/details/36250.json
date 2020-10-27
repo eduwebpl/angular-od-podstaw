@@ -1,0 +1,33 @@
+{
+  "likes": 82,
+  "id": 36250,
+  "slug": "world-draw",
+  "title": "World Draw",
+  "createdAt": 1556582400,
+  "tags": [
+    "Events",
+    "Web & Interactive",
+    "Colorful",
+    "WebGL",
+    "Blue",
+    "Red",
+    "Yellow",
+    "Experimental",
+    "Google App Engine",
+    "3D"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/world-draw",
+  "skills": {
+    "design": 66,
+    "html": 87,
+    "css": 61,
+    "angular": 77,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5ca6acff340d6075226436.png",
+    "src": "/projects/images/5ca6acff340d6075226436.png",
+    "filename": "5ca6acff340d6075226436.png"
+  }
+}

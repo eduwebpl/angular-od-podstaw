@@ -1,0 +1,36 @@
+{
+  "likes": 425,
+  "id": 35636,
+  "slug": "nomadic-tribe",
+  "title": "Nomadic Tribe",
+  "createdAt": 1550534400,
+  "tags": [
+    "Art & Illustration",
+    "Web & Interactive",
+    "Animation",
+    "Colorful",
+    "Unusual Navigation",
+    "WebGL",
+    "Brown",
+    "Green",
+    "Yellow",
+    "Illustration",
+    "Experimental",
+    "Storytelling",
+    "3D"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/nomadic-tribe",
+  "skills": {
+    "design": 68,
+    "html": 96,
+    "css": 62,
+    "angular": 91,
+    "nodejs": 65
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5c5d4cd3a7adc445704358.jpg",
+    "src": "/projects/images/5c5d4cd3a7adc445704358.jpg",
+    "filename": "5c5d4cd3a7adc445704358.jpg"
+  }
+}

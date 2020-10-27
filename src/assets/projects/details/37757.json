@@ -1,0 +1,35 @@
+{
+  "likes": 76,
+  "id": 37757,
+  "slug": "acoustic-garage",
+  "title": "Acoustic Garage",
+  "createdAt": 1567987200,
+  "tags": [
+    "Technology",
+    "Web & Interactive",
+    "Clean",
+    "Fullscreen",
+    "WebGL",
+    "Black",
+    "Green",
+    "Yellow",
+    "Data Visualization",
+    "Experimental",
+    "3D",
+    "Microinteractions"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/acoustic-garage",
+  "skills": {
+    "design": 93,
+    "html": 57,
+    "css": 64,
+    "angular": 50,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5d6807eb5350e269882938.png",
+    "src": "/projects/images/5d6807eb5350e269882938.png",
+    "filename": "5d6807eb5350e269882938.png"
+  }
+}

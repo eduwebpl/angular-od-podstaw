@@ -1,0 +1,40 @@
+{
+  "likes": 112,
+  "id": 38823,
+  "slug": "maxmara-bearing-gifts",
+  "title": "MaxMara Bearing Gifts",
+  "createdAt": 1578268800,
+  "tags": [
+    "Fashion",
+    "Web & Interactive",
+    "Animation",
+    "Colorful",
+    "CSS3",
+    "HTML5",
+    "WebGL",
+    "Black",
+    "Brown",
+    "Yellow",
+    "Experimental",
+    "Sound-Audio",
+    "Three.js",
+    "ReactJS﻿",
+    "3D",
+    "Gestures / Interaction",
+    "Interaction Design"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/maxmara-bearing-gifts",
+  "skills": {
+    "design": 72,
+    "html": 66,
+    "css": 47,
+    "angular": 69,
+    "nodejs": 60
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5dfa18ce5a8aa176211207.jpg",
+    "src": "/projects/images/5dfa18ce5a8aa176211207.jpg",
+    "filename": "5dfa18ce5a8aa176211207.jpg"
+  }
+}

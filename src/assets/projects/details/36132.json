@@ -1,0 +1,36 @@
+{
+  "likes": 141,
+  "id": 36132,
+  "slug": "bam-photographers-directors",
+  "title": "BAM Photographers & Directors",
+  "createdAt": 1555372800,
+  "tags": [
+    "CSS3",
+    "HTML5",
+    "jQuery",
+    "Photography",
+    "Red",
+    "White",
+    "Photography",
+    "Experimental",
+    "Gestures / Interaction",
+    "Filters and Effects",
+    "Copy design",
+    "Photo & Video",
+    "Microinteractions"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/bam-photographers-directors",
+  "skills": {
+    "design": 71,
+    "html": 90,
+    "css": 86,
+    "angular": 73,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5c95f765e97e3587161211.png",
+    "src": "/projects/images/5c95f765e97e3587161211.png",
+    "filename": "5c95f765e97e3587161211.png"
+  }
+}

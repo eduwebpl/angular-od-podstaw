@@ -1,0 +1,40 @@
+{
+  "likes": 48,
+  "id": 40985,
+  "slug": "vredestein-new-horizons",
+  "title": "Vredestein New Horizons",
+  "createdAt": 1596067200,
+  "tags": [
+    "Events",
+    "Web & Interactive",
+    "CSS3",
+    "Video",
+    "WebGL",
+    "Black",
+    "Blue",
+    "Red",
+    "Transitions",
+    "Experimental",
+    "Sound-Audio",
+    "GSAP Animation",
+    "Three.js",
+    "3D",
+    "Firebase",
+    "Photo & Video",
+    "Nuxt.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/vredestein-new-horizons",
+  "skills": {
+    "design": 64,
+    "html": 99,
+    "css": 49,
+    "angular": 48,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5f08321fa56bc497680397.png",
+    "src": "/projects/images/5f08321fa56bc497680397.png",
+    "filename": "5f08321fa56bc497680397.png"
+  }
+}

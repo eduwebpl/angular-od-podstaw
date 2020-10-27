@@ -1,0 +1,38 @@
+{
+  "likes": 136,
+  "id": 37344,
+  "slug": "prior-holdings",
+  "title": "Prior Holdings",
+  "createdAt": 1564012800,
+  "tags": [
+    "Events",
+    "Institutions",
+    "Animation",
+    "Navigation Menu",
+    "Scrolling",
+    "WebGL",
+    "Silver",
+    "White",
+    "Transitions",
+    "Experimental",
+    "Sound-Audio",
+    "Three.js",
+    "GLSL",
+    "3D",
+    "Vue.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/prior-holdings",
+  "skills": {
+    "design": 80,
+    "html": 73,
+    "css": 93,
+    "angular": 54,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5d3078ab8c055718081544.jpg",
+    "src": "/projects/images/5d3078ab8c055718081544.jpg",
+    "filename": "5d3078ab8c055718081544.jpg"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "likes": 120,
+  "id": 38146,
+  "slug": "8-design-trends-by-red-collar",
+  "title": "8 Design Trends by Red Collar",
+  "createdAt": 1572048000,
+  "tags": [
+    "Other",
+    "Web & Interactive",
+    "Animation",
+    "Big Background Images",
+    "Colorful",
+    "WebGL",
+    "Black",
+    "Red",
+    "White",
+    "Experimental",
+    "Illustration",
+    "GSAP Animation",
+    "Three.js",
+    "GLSL",
+    "3D",
+    "Filters and Effects"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/8-design-trends-by-red-collar",
+  "skills": {
+    "design": 84,
+    "html": 61,
+    "css": 57,
+    "angular": 60,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5d9c9e02c0968008787716.jpg",
+    "src": "/projects/images/5d9c9e02c0968008787716.jpg",
+    "filename": "5d9c9e02c0968008787716.jpg"
+  }
+}

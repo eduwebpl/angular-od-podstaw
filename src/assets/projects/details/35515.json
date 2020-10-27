@@ -1,0 +1,32 @@
+{
+  "likes": 190,
+  "id": 35515,
+  "slug": "kwok-yin-mak",
+  "title": "Kwok Yin Mak - Portfolio",
+  "createdAt": 1549238400,
+  "tags": [
+    "Web & Interactive",
+    "CSS3",
+    "Portfolio",
+    "Typography",
+    "Unusual Navigation",
+    "White",
+    "Experimental",
+    "GSAP Animation",
+    "Firebase"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/kwok-yin-mak",
+  "skills": {
+    "design": 87,
+    "html": 60,
+    "css": 93,
+    "angular": 84,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5c4ce74884c1d.jpg",
+    "src": "/projects/images/5c4ce74884c1d.jpg",
+    "filename": "5c4ce74884c1d.jpg"
+  }
+}

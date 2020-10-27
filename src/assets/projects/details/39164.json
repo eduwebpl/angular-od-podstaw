@@ -1,0 +1,36 @@
+{
+  "likes": 77,
+  "id": 39164,
+  "slug": "we-are-zizo",
+  "title": "We are ZIZO",
+  "createdAt": 1580947200,
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Animation",
+    "WebGL",
+    "Blue",
+    "Green",
+    "Red",
+    "Experimental",
+    "Three.js",
+    "3D",
+    "Gestures / Interaction",
+    "Nuxt.js",
+    "Anime.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/we-are-zizo",
+  "skills": {
+    "design": 82,
+    "html": 88,
+    "css": 46,
+    "angular": 87,
+    "nodejs": 57
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5e2a852740532826120101.jpg",
+    "src": "/projects/images/5e2a852740532826120101.jpg",
+    "filename": "5e2a852740532826120101.jpg"
+  }
+}

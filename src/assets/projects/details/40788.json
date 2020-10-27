@@ -1,0 +1,40 @@
+{
+  "likes": 115,
+  "id": 40788,
+  "slug": "daniele-buffa-portfolio-1",
+  "title": "Daniele Buffa - Portfolio",
+  "createdAt": 1594944000,
+  "tags": [
+    "Technology",
+    "Web & Interactive",
+    "Animation",
+    "Wordpress",
+    "CSS3",
+    "HTML5",
+    "Infinite Scroll",
+    "Portfolio",
+    "Black",
+    "Red",
+    "White",
+    "Transitions",
+    "Experimental",
+    "GSAP Animation",
+    "Interaction Design",
+    "Microinteractions",
+    "Vue.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/daniele-buffa-portfolio-1",
+  "skills": {
+    "design": 97,
+    "html": 95,
+    "css": 79,
+    "angular": 76,
+    "nodejs": 75
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5ef21f089c392695770351.jpg",
+    "src": "/projects/images/5ef21f089c392695770351.jpg",
+    "filename": "5ef21f089c392695770351.jpg"
+  }
+}

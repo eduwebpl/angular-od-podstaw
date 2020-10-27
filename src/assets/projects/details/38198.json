@@ -1,0 +1,33 @@
+{
+  "likes": 72,
+  "id": 38198,
+  "slug": "minimal-wim",
+  "title": "Minimal Wim",
+  "createdAt": 1572134400,
+  "tags": [
+    "Minimal",
+    "Retro",
+    "Single page",
+    "Typography",
+    "WebGL",
+    "Black",
+    "Red",
+    "Experimental",
+    "Responsive",
+    "PixiJS"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/minimal-wim",
+  "skills": {
+    "design": 73,
+    "html": 57,
+    "css": 67,
+    "angular": 90,
+    "nodejs": 36
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5da59ce38cfb8124124487.png",
+    "src": "/projects/images/5da59ce38cfb8124124487.png",
+    "filename": "5da59ce38cfb8124124487.png"
+  }
+}

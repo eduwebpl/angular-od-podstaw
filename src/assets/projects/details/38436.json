@@ -1,0 +1,35 @@
+{
+  "likes": 84,
+  "id": 38436,
+  "slug": "northand",
+  "title": "Northand",
+  "createdAt": 1574208000,
+  "tags": [
+    "Film & TV",
+    "Music & Sound",
+    "Fullscreen",
+    "Minimal",
+    "Portfolio",
+    "Scrolling",
+    "Black",
+    "White",
+    "Yellow",
+    "Experimental",
+    "Storytelling",
+    "Interaction Design"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/northand",
+  "skills": {
+    "design": 80,
+    "html": 87,
+    "css": 58,
+    "angular": 53,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5dc451e973ece913126999.jpg",
+    "src": "/projects/images/5dc451e973ece913126999.jpg",
+    "filename": "5dc451e973ece913126999.jpg"
+  }
+}

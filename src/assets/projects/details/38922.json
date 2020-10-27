@@ -1,0 +1,39 @@
+{
+  "likes": 113,
+  "id": 38922,
+  "slug": "defeat-b-o-c-o",
+  "title": "Defeat B.O.C.O.",
+  "createdAt": 1579996800,
+  "tags": [
+    "Art & Illustration",
+    "Design Agencies",
+    "jQuery",
+    "Parallax",
+    "Scrolling",
+    "Blue",
+    "Orange",
+    "White",
+    "Experimental",
+    "Illustration",
+    "Storytelling",
+    "Apache",
+    "Nginx",
+    "Skrollr.js",
+    "Gestures / Interaction",
+    "UI design"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/defeat-b-o-c-o",
+  "skills": {
+    "design": 87,
+    "html": 62,
+    "css": 67,
+    "angular": 66,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5e0bd934c0019216305968.png",
+    "src": "/projects/images/5e0bd934c0019216305968.png",
+    "filename": "5e0bd934c0019216305968.png"
+  }
+}

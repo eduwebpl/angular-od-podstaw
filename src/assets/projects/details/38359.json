@@ -1,0 +1,36 @@
+{
+  "likes": 90,
+  "id": 38359,
+  "slug": "fontsmith-variable-fonts",
+  "title": "Fontsmith Variable Fonts",
+  "createdAt": 1573171200,
+  "tags": [
+    "Promotional",
+    "Web & Interactive",
+    "CSS3",
+    "HTML5",
+    "Minimal",
+    "Responsive Design",
+    "Typography",
+    "Blue",
+    "Green",
+    "Pink",
+    "Experimental",
+    "UI design",
+    "Vue.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/fontsmith-variable-fonts",
+  "skills": {
+    "design": 71,
+    "html": 72,
+    "css": 83,
+    "angular": 60,
+    "nodejs": 43
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5db96b1d98aa9070197114.png",
+    "src": "/projects/images/5db96b1d98aa9070197114.png",
+    "filename": "5db96b1d98aa9070197114.png"
+  }
+}

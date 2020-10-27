@@ -1,0 +1,32 @@
+{
+  "likes": 131,
+  "id": 35907,
+  "slug": "rodolfo-sarno",
+  "title": "Rodolfo Sarno",
+  "createdAt": 1553212800,
+  "tags": [
+    "Web & Interactive",
+    "Minimal",
+    "Portfolio",
+    "Black",
+    "Silver",
+    "White",
+    "Experimental",
+    "Filters and Effects",
+    "Interaction Design"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/rodolfo-sarno",
+  "skills": {
+    "design": 88,
+    "html": 60,
+    "css": 42,
+    "angular": 86,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5c7c7d794a128595374281.png",
+    "src": "/projects/images/5c7c7d794a128595374281.png",
+    "filename": "5c7c7d794a128595374281.png"
+  }
+}

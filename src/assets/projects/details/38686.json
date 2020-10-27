@@ -1,0 +1,35 @@
+{
+  "likes": 98,
+  "id": 38686,
+  "slug": "niki-lauda",
+  "title": "Niki Lauda",
+  "createdAt": 1577491200,
+  "tags": [
+    "Culture & Education",
+    "Sports",
+    "Animation",
+    "Minimal",
+    "Retro",
+    "Typography",
+    "Black",
+    "Red",
+    "White",
+    "Transitions",
+    "Experimental",
+    "UI design"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/niki-lauda",
+  "skills": {
+    "design": 62,
+    "html": 96,
+    "css": 66,
+    "angular": 82,
+    "nodejs": 64
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5dee5ee3e570f954149163.jpg",
+    "src": "/projects/images/5dee5ee3e570f954149163.jpg",
+    "filename": "5dee5ee3e570f954149163.jpg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "likes": 150,
+  "id": 40943,
+  "slug": "patrick-heng-portfolio-1",
+  "title": "Patrick HENG - Portfolio",
+  "createdAt": 1595289600,
+  "tags": [
+    "Promotional",
+    "Web & Interactive",
+    "Animation",
+    "Horizontal Layout",
+    "Infinite Scroll",
+    "Portfolio",
+    "White",
+    "Transitions",
+    "Experimental",
+    "GSAP Animation",
+    "Three.js",
+    "Microinteractions",
+    "Vue.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/patrick-heng-portfolio-1",
+  "skills": {
+    "design": 62,
+    "html": 67,
+    "css": 84,
+    "angular": 55,
+    "nodejs": 76
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5f041a739cf10731203317.jpg",
+    "src": "/projects/images/5f041a739cf10731203317.jpg",
+    "filename": "5f041a739cf10731203317.jpg"
+  }
+}

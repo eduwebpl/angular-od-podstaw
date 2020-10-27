@@ -1,0 +1,41 @@
+{
+  "likes": 113,
+  "id": 40484,
+  "slug": "mcube",
+  "title": "Mcube",
+  "createdAt": 1593129600,
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Animation",
+    "Wordpress",
+    "WebGL",
+    "Black",
+    "Green",
+    "Pink",
+    "Experimental",
+    "Illustration",
+    "GSAP Animation",
+    "Three.js",
+    "Bootstrap",
+    "3D",
+    "Gestures / Interaction",
+    "Content architecture",
+    "404 pages",
+    "BARBA.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/mcube",
+  "skills": {
+    "design": 89,
+    "html": 86,
+    "css": 82,
+    "angular": 94,
+    "nodejs": 80
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5ecbfe286adc1823890379.jpg",
+    "src": "/projects/images/5ecbfe286adc1823890379.jpg",
+    "filename": "5ecbfe286adc1823890379.jpg"
+  }
+}

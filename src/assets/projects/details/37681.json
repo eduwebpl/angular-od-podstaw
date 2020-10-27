@@ -1,0 +1,37 @@
+{
+  "likes": 58,
+  "id": 37681,
+  "slug": "adidas-originals-ozweego-2048",
+  "title": "adidas Originals: Ozweego 2048",
+  "createdAt": 1567900800,
+  "tags": [
+    "Fashion",
+    "Web & Interactive",
+    "CSS3",
+    "HTML5",
+    "Scrolling",
+    "Unusual Navigation",
+    "WebGL",
+    "Black",
+    "Blue",
+    "Yellow",
+    "Experimental",
+    "Gallery",
+    "Three.js",
+    "3D"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/adidas-originals-ozweego-2048",
+  "skills": {
+    "design": 74,
+    "html": 58,
+    "css": 64,
+    "angular": 96,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5d5e4109f1cc6766979990.jpg",
+    "src": "/projects/images/5d5e4109f1cc6766979990.jpg",
+    "filename": "5d5e4109f1cc6766979990.jpg"
+  }
+}

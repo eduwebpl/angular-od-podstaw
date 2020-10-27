@@ -1,0 +1,32 @@
+{
+  "likes": 170,
+  "id": 35383,
+  "slug": "microsoft-by-the-numbers",
+  "title": "Microsoft by the Numbers",
+  "createdAt": 1548028800,
+  "tags": [
+    "Art & Illustration",
+    "Mobile & Apps",
+    "Responsive Design",
+    "Black",
+    "Silver",
+    "Experimental",
+    "Responsive",
+    "Storytelling",
+    "3D"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/microsoft-by-the-numbers",
+  "skills": {
+    "design": 77,
+    "html": 61,
+    "css": 53,
+    "angular": 52,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5c46d7fc1c9c1.jpg",
+    "src": "/projects/images/5c46d7fc1c9c1.jpg",
+    "filename": "5c46d7fc1c9c1.jpg"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "likes": 191,
+  "id": 39098,
+  "slug": "nightingale",
+  "title": "Nightingale",
+  "createdAt": 1580169600,
+  "tags": [
+    "Design Agencies",
+    "Fashion",
+    "Animation",
+    "Wordpress",
+    "Portfolio",
+    "WebGL",
+    "Black",
+    "Blue",
+    "Pink",
+    "Transitions",
+    "Experimental",
+    "GSAP Animation",
+    "Three.js",
+    "Filters and Effects",
+    "Interaction Design",
+    "Project Page"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/nightingale",
+  "skills": {
+    "design": 80,
+    "html": 58,
+    "css": 60,
+    "angular": 46,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5e247880acab1883065321.png",
+    "src": "/projects/images/5e247880acab1883065321.png",
+    "filename": "5e247880acab1883065321.png"
+  }
+}

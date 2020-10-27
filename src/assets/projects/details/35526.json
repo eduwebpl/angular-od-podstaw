@@ -1,0 +1,40 @@
+{
+  "likes": 153,
+  "id": 35526,
+  "slug": "les-animals-2019-wishes",
+  "title": "Les Animals 2019 wishes",
+  "createdAt": 1549670400,
+  "tags": [
+    "Web & Interactive",
+    "Animation",
+    "Colorful",
+    "CSS3",
+    "SVG",
+    "Unusual Navigation",
+    "WebGL",
+    "Blue",
+    "Green",
+    "Red",
+    "Transitions",
+    "Experimental",
+    "Storytelling",
+    "GSAP Animation",
+    "Three.js",
+    "GLSL",
+    "3D"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/les-animals-2019-wishes",
+  "skills": {
+    "design": 83,
+    "html": 59,
+    "css": 48,
+    "angular": 76,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5c4f2e51d2939.jpg",
+    "src": "/projects/images/5c4f2e51d2939.jpg",
+    "filename": "5c4f2e51d2939.jpg"
+  }
+}

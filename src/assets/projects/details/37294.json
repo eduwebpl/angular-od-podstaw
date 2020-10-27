@@ -1,0 +1,39 @@
+{
+  "likes": 126,
+  "id": 37294,
+  "slug": "haus-studio-website",
+  "title": "HAUS Studio Website",
+  "createdAt": 1563753600,
+  "tags": [
+    "Design Agencies",
+    "Web & Interactive",
+    "Responsive Design",
+    "WebGL",
+    "Black",
+    "Green",
+    "Pink",
+    "Transitions",
+    "Experimental",
+    "Three.js",
+    "ReactJS﻿",
+    "GLSL",
+    "Interaction Design",
+    "About Page",
+    "Contact Page",
+    "Project Page"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/haus-studio-website",
+  "skills": {
+    "design": 88,
+    "html": 81,
+    "css": 42,
+    "angular": 73,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5d27b90383e5f288965358.jpg",
+    "src": "/projects/images/5d27b90383e5f288965358.jpg",
+    "filename": "5d27b90383e5f288965358.jpg"
+  }
+}

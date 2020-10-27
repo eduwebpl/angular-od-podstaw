@@ -1,0 +1,37 @@
+{
+  "likes": 91,
+  "id": 37946,
+  "slug": "24hourace",
+  "title": "#24hourace",
+  "createdAt": 1569801600,
+  "tags": [
+    "Fashion",
+    "Promotional",
+    "Colorful",
+    "WebGL",
+    "Blue",
+    "Pink",
+    "Red",
+    "Transitions",
+    "Experimental",
+    "Three.js",
+    "ReactJS﻿",
+    "GLSL",
+    "3D",
+    "Interaction Design"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/24hourace",
+  "skills": {
+    "design": 81,
+    "html": 59,
+    "css": 54,
+    "angular": 85,
+    "nodejs": 74
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5d833d6be5415518964962.jpg",
+    "src": "/projects/images/5d833d6be5415518964962.jpg",
+    "filename": "5d833d6be5415518964962.jpg"
+  }
+}

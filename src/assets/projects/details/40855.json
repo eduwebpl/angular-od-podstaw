@@ -1,0 +1,33 @@
+{
+  "likes": 71,
+  "id": 40855,
+  "slug": "thibaut-foussard-2020",
+  "title": "Thibaut Foussard - 2020",
+  "createdAt": 1595635200,
+  "tags": [
+    "Web & Interactive",
+    "Portfolio",
+    "WebGL",
+    "Black",
+    "Silver",
+    "White",
+    "Experimental",
+    "Three.js",
+    "Webpack",
+    "Anime.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/thibaut-foussard-2020",
+  "skills": {
+    "design": 69,
+    "html": 84,
+    "css": 74,
+    "angular": 55,
+    "nodejs": 34
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5ef781563bb85859570692.jpg",
+    "src": "/projects/images/5ef781563bb85859570692.jpg",
+    "filename": "5ef781563bb85859570692.jpg"
+  }
+}

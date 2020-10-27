@@ -1,0 +1,32 @@
+{
+  "likes": 93,
+  "id": 38084,
+  "slug": "rogue-studio",
+  "title": "Rogue Studio",
+  "createdAt": 1570752000,
+  "tags": [
+    "Design Agencies",
+    "Graphic design",
+    "Portfolio",
+    "WebGL",
+    "Black",
+    "Brown",
+    "Experimental",
+    "PHP",
+    "BARBA.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/rogue-studio",
+  "skills": {
+    "design": 73,
+    "html": 70,
+    "css": 65,
+    "angular": 93,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5d9413d004074842820995.jpg",
+    "src": "/projects/images/5d9413d004074842820995.jpg",
+    "filename": "5d9413d004074842820995.jpg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "likes": 96,
+  "id": 36194,
+  "slug": "alacran-group",
+  "title": "Alacran Group",
+  "createdAt": 1555632000,
+  "tags": [
+    "Games & Entertainment",
+    "Music & Sound",
+    "Clean",
+    "WebGL",
+    "Black",
+    "Blue",
+    "Yellow",
+    "Experimental",
+    "Sound-Audio",
+    "Storytelling",
+    "Gestures / Interaction",
+    "Content architecture",
+    "Interaction Design"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/alacran-group",
+  "skills": {
+    "design": 77,
+    "html": 89,
+    "css": 76,
+    "angular": 82,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5c9d2ac0d1c0b521935380.png",
+    "src": "/projects/images/5c9d2ac0d1c0b521935380.png",
+    "filename": "5c9d2ac0d1c0b521935380.png"
+  }
+}

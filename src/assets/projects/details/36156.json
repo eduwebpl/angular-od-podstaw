@@ -1,0 +1,38 @@
+{
+  "likes": 106,
+  "id": 36156,
+  "slug": "takahisa-mitsumori-mergrim",
+  "title": "Takahisa Mitsumori",
+  "createdAt": 1555027200,
+  "tags": [
+    "Music & Sound",
+    "Web & Interactive",
+    "Wordpress",
+    "CSS3",
+    "HTML5",
+    "Minimal",
+    "Portfolio",
+    "Typography",
+    "Web Fonts",
+    "WebGL",
+    "Black",
+    "Experimental",
+    "Sound-Audio",
+    "GSAP Animation",
+    "CloudFlare"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/takahisa-mitsumori-mergrim",
+  "skills": {
+    "design": 87,
+    "html": 96,
+    "css": 44,
+    "angular": 52,
+    "nodejs": 84
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5c99feacb586b841687583.png",
+    "src": "/projects/images/5c99feacb586b841687583.png",
+    "filename": "5c99feacb586b841687583.png"
+  }
+}

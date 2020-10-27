@@ -1,0 +1,38 @@
+{
+  "likes": 136,
+  "id": 40442,
+  "slug": "my-better-normal",
+  "title": "My Better Normal",
+  "createdAt": 1591142400,
+  "tags": [
+    "Culture & Education",
+    "Film & TV",
+    "Animation",
+    "CSS3",
+    "jQuery",
+    "Video",
+    "Black",
+    "Orange",
+    "White",
+    "Experimental",
+    "GSAP Animation",
+    "Apache",
+    "PHP",
+    "Copy design",
+    "Microinteractions"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/my-better-normal",
+  "skills": {
+    "design": 89,
+    "html": 56,
+    "css": 75,
+    "angular": 63,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5ec60b034a709229733504.jpg",
+    "src": "/projects/images/5ec60b034a709229733504.jpg",
+    "filename": "5ec60b034a709229733504.jpg"
+  }
+}

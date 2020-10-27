@@ -1,0 +1,35 @@
+{
+  "likes": 111,
+  "id": 36846,
+  "slug": "the-view-from-above",
+  "title": "The View from Above",
+  "createdAt": 1560643200,
+  "tags": [
+    "Art & Illustration",
+    "Web & Interactive",
+    "Animation",
+    "Colorful",
+    "Parallax",
+    "Blue",
+    "Green",
+    "Red",
+    "Experimental",
+    "Sound-Audio",
+    "Storytelling",
+    "3D"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/the-view-from-above",
+  "skills": {
+    "design": 88,
+    "html": 62,
+    "css": 66,
+    "angular": 72,
+    "nodejs": false
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5cf16b09184ae742757830.jpg",
+    "src": "/projects/images/5cf16b09184ae742757830.jpg",
+    "filename": "5cf16b09184ae742757830.jpg"
+  }
+}

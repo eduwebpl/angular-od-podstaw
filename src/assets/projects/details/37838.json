@@ -1,0 +1,37 @@
+{
+  "likes": 206,
+  "id": 37838,
+  "slug": "personal-page-vladimir-gruev",
+  "title": "Personal Page - Vladimir Gruev",
+  "createdAt": 1568678400,
+  "tags": [
+    "Web & Interactive",
+    "CSS3",
+    "Minimal",
+    "Portfolio",
+    "Single page",
+    "SVG",
+    "Typography",
+    "Black",
+    "Experimental",
+    "Hammer.JS",
+    "Webpack",
+    "Interaction Design",
+    "UI design",
+    "Vue.js"
+  ],
+  "type": "submission",
+  "url": "https://www.awwwards.com/sites/personal-page-vladimir-gruev",
+  "skills": {
+    "design": 88,
+    "html": 74,
+    "css": 58,
+    "angular": 93,
+    "nodejs": 47
+  },
+  "images": {
+    "thumbnail": "/projects/images/thumbnails/5d763c1a802fa825221046.png",
+    "src": "/projects/images/5d763c1a802fa825221046.png",
+    "filename": "5d763c1a802fa825221046.png"
+  }
+}
